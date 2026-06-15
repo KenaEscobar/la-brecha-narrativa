@@ -1,0 +1,2975 @@
+{
+  "metadata": {
+    "proyecto": "La Brecha Narrativa",
+    "autor": "Kena Escobar",
+    "actualizado": "2026-06",
+    "fuentes": [
+      "CEP Chile — encuestas 71–95 (2014–2025), ponderadas por 'pond'",
+      "Banco Central Chile — IPEC BJ005 (datos oficiales)",
+      "Banco Central Chile — PIB real %",
+      "World Bank — GINI Chile",
+      "Google Trends CL — descarga manual (crisis Chile, caos Chile, delincuencia, etc.)",
+      "Fundación SOL — IMCE Mayo-Julio 2025"
+    ],
+    "paper_clave": "Figueroa & Pedersen DTBC-832 (2019): IPEC Granger-causa PIB p=0.01; PIB no causa IPEC p=0.26",
+    "hallazgo_lag": "Correlación máxima Narrativa_Crisis → IPEC: lag=6, r=-0.253",
+    "advertencias": [
+      "IPEC cambió metodología Mar 2022 (telefónico → online)",
+      "CEP: cambio marco muestral 2018 (Censo 2017)",
+      "CEP: sin encuesta 2020 (pandemia)",
+      "Google Trends: escala relativa 0-100, no volumen absoluto"
+    ]
+  },
+  "ipec_mensual": [
+    {
+      "fecha_str": "2014-01",
+      "año": 2014,
+      "mes": 1,
+      "ipec": 54.6,
+      "econ_personal_actual": 49.0,
+      "econ_pais_actual": 59.3,
+      "econ_pais_12m": 59.7
+    },
+    {
+      "fecha_str": "2014-02",
+      "año": 2014,
+      "mes": 2,
+      "ipec": 54.3,
+      "econ_personal_actual": 48.6,
+      "econ_pais_actual": 60.1,
+      "econ_pais_12m": 61.8
+    },
+    {
+      "fecha_str": "2014-03",
+      "año": 2014,
+      "mes": 3,
+      "ipec": 53.4,
+      "econ_personal_actual": 46.9,
+      "econ_pais_actual": 60.4,
+      "econ_pais_12m": 62.0
+    },
+    {
+      "fecha_str": "2014-04",
+      "año": 2014,
+      "mes": 4,
+      "ipec": 52.6,
+      "econ_personal_actual": 47.0,
+      "econ_pais_actual": 56.8,
+      "econ_pais_12m": 59.7
+    },
+    {
+      "fecha_str": "2014-05",
+      "año": 2014,
+      "mes": 5,
+      "ipec": 50.3,
+      "econ_personal_actual": 42.3,
+      "econ_pais_actual": 53.3,
+      "econ_pais_12m": 58.5
+    },
+    {
+      "fecha_str": "2014-06",
+      "año": 2014,
+      "mes": 6,
+      "ipec": 49.2,
+      "econ_personal_actual": 42.4,
+      "econ_pais_actual": 51.2,
+      "econ_pais_12m": 57.6
+    },
+    {
+      "fecha_str": "2014-07",
+      "año": 2014,
+      "mes": 7,
+      "ipec": 47.5,
+      "econ_personal_actual": 42.1,
+      "econ_pais_actual": 49.3,
+      "econ_pais_12m": 55.3
+    },
+    {
+      "fecha_str": "2014-08",
+      "año": 2014,
+      "mes": 8,
+      "ipec": 43.1,
+      "econ_personal_actual": 35.7,
+      "econ_pais_actual": 46.1,
+      "econ_pais_12m": 50.2
+    },
+    {
+      "fecha_str": "2014-09",
+      "año": 2014,
+      "mes": 9,
+      "ipec": 42.5,
+      "econ_personal_actual": 40.8,
+      "econ_pais_actual": 45.3,
+      "econ_pais_12m": 50.5
+    },
+    {
+      "fecha_str": "2014-10",
+      "año": 2014,
+      "mes": 10,
+      "ipec": 43.1,
+      "econ_personal_actual": 39.6,
+      "econ_pais_actual": 43.4,
+      "econ_pais_12m": 51.7
+    },
+    {
+      "fecha_str": "2014-11",
+      "año": 2014,
+      "mes": 11,
+      "ipec": 41.1,
+      "econ_personal_actual": 35.6,
+      "econ_pais_actual": 42.6,
+      "econ_pais_12m": 49.3
+    },
+    {
+      "fecha_str": "2014-12",
+      "año": 2014,
+      "mes": 12,
+      "ipec": 45.3,
+      "econ_personal_actual": 39.7,
+      "econ_pais_actual": 45.5,
+      "econ_pais_12m": 53.3
+    },
+    {
+      "fecha_str": "2015-01",
+      "año": 2015,
+      "mes": 1,
+      "ipec": 41.9,
+      "econ_personal_actual": 39.0,
+      "econ_pais_actual": 46.1,
+      "econ_pais_12m": 50.2
+    },
+    {
+      "fecha_str": "2015-02",
+      "año": 2015,
+      "mes": 2,
+      "ipec": 44.7,
+      "econ_personal_actual": 39.8,
+      "econ_pais_actual": 46.3,
+      "econ_pais_12m": 50.8
+    },
+    {
+      "fecha_str": "2015-03",
+      "año": 2015,
+      "mes": 3,
+      "ipec": 39.7,
+      "econ_personal_actual": 38.3,
+      "econ_pais_actual": 40.9,
+      "econ_pais_12m": 45.8
+    },
+    {
+      "fecha_str": "2015-04",
+      "año": 2015,
+      "mes": 4,
+      "ipec": 38.3,
+      "econ_personal_actual": 36.9,
+      "econ_pais_actual": 36.6,
+      "econ_pais_12m": 43.1
+    },
+    {
+      "fecha_str": "2015-05",
+      "año": 2015,
+      "mes": 5,
+      "ipec": 39.0,
+      "econ_personal_actual": 35.2,
+      "econ_pais_actual": 37.4,
+      "econ_pais_12m": 42.8
+    },
+    {
+      "fecha_str": "2015-06",
+      "año": 2015,
+      "mes": 6,
+      "ipec": 37.2,
+      "econ_personal_actual": 33.5,
+      "econ_pais_actual": 34.6,
+      "econ_pais_12m": 42.6
+    },
+    {
+      "fecha_str": "2015-07",
+      "año": 2015,
+      "mes": 7,
+      "ipec": 34.3,
+      "econ_personal_actual": 31.4,
+      "econ_pais_actual": 31.8,
+      "econ_pais_12m": 40.6
+    },
+    {
+      "fecha_str": "2015-08",
+      "año": 2015,
+      "mes": 8,
+      "ipec": 33.9,
+      "econ_personal_actual": 30.2,
+      "econ_pais_actual": 31.6,
+      "econ_pais_12m": 37.8
+    },
+    {
+      "fecha_str": "2015-09",
+      "año": 2015,
+      "mes": 9,
+      "ipec": 34.1,
+      "econ_personal_actual": 31.6,
+      "econ_pais_actual": 32.8,
+      "econ_pais_12m": 37.4
+    },
+    {
+      "fecha_str": "2015-10",
+      "año": 2015,
+      "mes": 10,
+      "ipec": 35.2,
+      "econ_personal_actual": 30.44,
+      "econ_pais_actual": 35.065,
+      "econ_pais_12m": 39.2
+    },
+    {
+      "fecha_str": "2015-11",
+      "año": 2015,
+      "mes": 11,
+      "ipec": 36.4,
+      "econ_personal_actual": 32.3,
+      "econ_pais_actual": 32.375,
+      "econ_pais_12m": 40.6
+    },
+    {
+      "fecha_str": "2015-12",
+      "año": 2015,
+      "mes": 12,
+      "ipec": 37.0,
+      "econ_personal_actual": 35.3,
+      "econ_pais_actual": 34.8,
+      "econ_pais_12m": 41.2
+    },
+    {
+      "fecha_str": "2016-01",
+      "año": 2016,
+      "mes": 1,
+      "ipec": 34.3,
+      "econ_personal_actual": 35.8,
+      "econ_pais_actual": 32.9,
+      "econ_pais_12m": 35.7
+    },
+    {
+      "fecha_str": "2016-02",
+      "año": 2016,
+      "mes": 2,
+      "ipec": 37.6,
+      "econ_personal_actual": 37.83,
+      "econ_pais_actual": 35.4,
+      "econ_pais_12m": 39.495
+    },
+    {
+      "fecha_str": "2016-03",
+      "año": 2016,
+      "mes": 3,
+      "ipec": 35.5,
+      "econ_personal_actual": 34.31,
+      "econ_pais_actual": 33.705,
+      "econ_pais_12m": 39.0
+    },
+    {
+      "fecha_str": "2016-04",
+      "año": 2016,
+      "mes": 4,
+      "ipec": 34.6,
+      "econ_personal_actual": 32.69,
+      "econ_pais_actual": 31.3,
+      "econ_pais_12m": 38.09
+    },
+    {
+      "fecha_str": "2016-05",
+      "año": 2016,
+      "mes": 5,
+      "ipec": 33.9,
+      "econ_personal_actual": 32.4,
+      "econ_pais_actual": 30.67,
+      "econ_pais_12m": 35.595
+    },
+    {
+      "fecha_str": "2016-06",
+      "año": 2016,
+      "mes": 6,
+      "ipec": 35.1,
+      "econ_personal_actual": 32.8,
+      "econ_pais_actual": 33.0,
+      "econ_pais_12m": 37.5
+    },
+    {
+      "fecha_str": "2016-07",
+      "año": 2016,
+      "mes": 7,
+      "ipec": 33.0,
+      "econ_personal_actual": 31.08,
+      "econ_pais_actual": 29.77,
+      "econ_pais_12m": 36.735
+    },
+    {
+      "fecha_str": "2016-08",
+      "año": 2016,
+      "mes": 8,
+      "ipec": 31.5,
+      "econ_personal_actual": 28.635,
+      "econ_pais_actual": 27.615,
+      "econ_pais_12m": 33.415
+    },
+    {
+      "fecha_str": "2016-09",
+      "año": 2016,
+      "mes": 9,
+      "ipec": 33.4,
+      "econ_personal_actual": 33.53,
+      "econ_pais_actual": 30.705,
+      "econ_pais_12m": 35.365
+    },
+    {
+      "fecha_str": "2016-10",
+      "año": 2016,
+      "mes": 10,
+      "ipec": 36.2,
+      "econ_personal_actual": 32.38,
+      "econ_pais_actual": 34.02,
+      "econ_pais_12m": 40.74
+    },
+    {
+      "fecha_str": "2016-11",
+      "año": 2016,
+      "mes": 11,
+      "ipec": 37.2218911006787,
+      "econ_personal_actual": 33.55,
+      "econ_pais_actual": 33.0,
+      "econ_pais_12m": 37.85
+    },
+    {
+      "fecha_str": "2016-12",
+      "año": 2016,
+      "mes": 12,
+      "ipec": 40.0845733308129,
+      "econ_personal_actual": 38.05,
+      "econ_pais_actual": 36.65,
+      "econ_pais_12m": 46.05
+    },
+    {
+      "fecha_str": "2017-01",
+      "año": 2017,
+      "mes": 1,
+      "ipec": 39.2009791721606,
+      "econ_personal_actual": 36.72,
+      "econ_pais_actual": 34.53,
+      "econ_pais_12m": 45.7
+    },
+    {
+      "fecha_str": "2017-02",
+      "año": 2017,
+      "mes": 2,
+      "ipec": 36.9834639343112,
+      "econ_personal_actual": 36.55,
+      "econ_pais_actual": 33.7,
+      "econ_pais_12m": 40.1
+    },
+    {
+      "fecha_str": "2017-03",
+      "año": 2017,
+      "mes": 3,
+      "ipec": 37.3240600569748,
+      "econ_personal_actual": 34.9798052369654,
+      "econ_pais_actual": 35.6934048722327,
+      "econ_pais_12m": 44.1643772125632
+    },
+    {
+      "fecha_str": "2017-04",
+      "año": 2017,
+      "mes": 4,
+      "ipec": 40.0736813746942,
+      "econ_personal_actual": 36.9545244945437,
+      "econ_pais_actual": 37.7072279414819,
+      "econ_pais_12m": 44.4166572197692
+    },
+    {
+      "fecha_str": "2017-05",
+      "año": 2017,
+      "mes": 5,
+      "ipec": 40.5627638758705,
+      "econ_personal_actual": 40.6933649980349,
+      "econ_pais_actual": 37.2780408728341,
+      "econ_pais_12m": 45.1973070544668
+    },
+    {
+      "fecha_str": "2017-06",
+      "año": 2017,
+      "mes": 6,
+      "ipec": 40.8128735171361,
+      "econ_personal_actual": 40.2080439446214,
+      "econ_pais_actual": 35.7680953048444,
+      "econ_pais_12m": 44.6129945223373
+    },
+    {
+      "fecha_str": "2017-07",
+      "año": 2017,
+      "mes": 7,
+      "ipec": 41.0489280574002,
+      "econ_personal_actual": 34.9071945971046,
+      "econ_pais_actual": 36.7423699910577,
+      "econ_pais_12m": 48.8740910492143
+    },
+    {
+      "fecha_str": "2017-08",
+      "año": 2017,
+      "mes": 8,
+      "ipec": 41.1290954336901,
+      "econ_personal_actual": 36.5171160327493,
+      "econ_pais_actual": 34.631620211104,
+      "econ_pais_12m": 47.1990392034841
+    },
+    {
+      "fecha_str": "2017-09",
+      "año": 2017,
+      "mes": 9,
+      "ipec": 45.8907678971763,
+      "econ_personal_actual": 39.0170482507523,
+      "econ_pais_actual": 39.2593156229676,
+      "econ_pais_12m": 53.6569394664891
+    },
+    {
+      "fecha_str": "2017-10",
+      "año": 2017,
+      "mes": 10,
+      "ipec": 46.4527635244824,
+      "econ_personal_actual": 40.1184611970655,
+      "econ_pais_actual": 41.9156529941394,
+      "econ_pais_12m": 55.8059617337113
+    },
+    {
+      "fecha_str": "2017-11",
+      "año": 2017,
+      "mes": 11,
+      "ipec": 47.3843443944941,
+      "econ_personal_actual": 40.5873768594141,
+      "econ_pais_actual": 42.8335519349329,
+      "econ_pais_12m": 56.5225010834039
+    },
+    {
+      "fecha_str": "2017-12",
+      "año": 2017,
+      "mes": 12,
+      "ipec": 53.1490158741031,
+      "econ_personal_actual": 43.4655483807749,
+      "econ_pais_actual": 49.545485113412,
+      "econ_pais_12m": 66.2150128353567
+    },
+    {
+      "fecha_str": "2018-01",
+      "año": 2018,
+      "mes": 1,
+      "ipec": 51.4918740707036,
+      "econ_personal_actual": 41.0230066672291,
+      "econ_pais_actual": 47.2210380740139,
+      "econ_pais_12m": 63.0533612639893
+    },
+    {
+      "fecha_str": "2018-02",
+      "año": 2018,
+      "mes": 2,
+      "ipec": 51.1,
+      "econ_personal_actual": 42.3,
+      "econ_pais_actual": 48.5,
+      "econ_pais_12m": 63.7
+    },
+    {
+      "fecha_str": "2018-03",
+      "año": 2018,
+      "mes": 3,
+      "ipec": 50.0,
+      "econ_personal_actual": 43.9,
+      "econ_pais_actual": 46.3,
+      "econ_pais_12m": 61.2
+    },
+    {
+      "fecha_str": "2018-04",
+      "año": 2018,
+      "mes": 4,
+      "ipec": 51.2499173761192,
+      "econ_personal_actual": 44.0910593653998,
+      "econ_pais_actual": 48.8992524062203,
+      "econ_pais_12m": 65.166695895565
+    },
+    {
+      "fecha_str": "2018-05",
+      "año": 2018,
+      "mes": 5,
+      "ipec": 51.2044801374976,
+      "econ_personal_actual": 46.1910554658861,
+      "econ_pais_actual": 51.1751098226883,
+      "econ_pais_12m": 61.3745088315093
+    },
+    {
+      "fecha_str": "2018-06",
+      "año": 2018,
+      "mes": 6,
+      "ipec": 52.734591947883,
+      "econ_personal_actual": 50.0096501741732,
+      "econ_pais_actual": 51.9225077364713,
+      "econ_pais_12m": 61.3384844708637
+    },
+    {
+      "fecha_str": "2018-07",
+      "año": 2018,
+      "mes": 7,
+      "ipec": 49.9954748938837,
+      "econ_personal_actual": 47.4071329372954,
+      "econ_pais_actual": 49.6584353222619,
+      "econ_pais_12m": 58.3271885329057
+    },
+    {
+      "fecha_str": "2018-08",
+      "año": 2018,
+      "mes": 8,
+      "ipec": 46.9748398322785,
+      "econ_personal_actual": 45.3660708519001,
+      "econ_pais_actual": 45.7052888820572,
+      "econ_pais_12m": 55.3036196488107
+    },
+    {
+      "fecha_str": "2018-09",
+      "año": 2018,
+      "mes": 9,
+      "ipec": 46.0701083638492,
+      "econ_personal_actual": 44.2413375000747,
+      "econ_pais_actual": 47.7749365568055,
+      "econ_pais_12m": 55.8055072987993
+    },
+    {
+      "fecha_str": "2018-10",
+      "año": 2018,
+      "mes": 10,
+      "ipec": 46.6685277612505,
+      "econ_personal_actual": 43.1207251661588,
+      "econ_pais_actual": 49.0485390275333,
+      "econ_pais_12m": 53.6475286252137
+    },
+    {
+      "fecha_str": "2018-11",
+      "año": 2018,
+      "mes": 11,
+      "ipec": 44.938385446545,
+      "econ_personal_actual": 41.2455117384408,
+      "econ_pais_actual": 47.5096424483477,
+      "econ_pais_12m": 53.0848307854583
+    },
+    {
+      "fecha_str": "2018-12",
+      "año": 2018,
+      "mes": 12,
+      "ipec": 44.5897810160383,
+      "econ_personal_actual": 44.4726218272091,
+      "econ_pais_actual": 44.4299085430393,
+      "econ_pais_12m": 52.5760131582005
+    },
+    {
+      "fecha_str": "2019-01",
+      "año": 2019,
+      "mes": 1,
+      "ipec": 47.0479850769043,
+      "econ_personal_actual": 43.5488395690918,
+      "econ_pais_actual": 50.3273963928223,
+      "econ_pais_12m": 54.9696655273438
+    },
+    {
+      "fecha_str": "2019-02",
+      "año": 2019,
+      "mes": 2,
+      "ipec": 46.2771034240723,
+      "econ_personal_actual": 44.14892578125,
+      "econ_pais_actual": 48.7512245178223,
+      "econ_pais_12m": 52.5590744018555
+    },
+    {
+      "fecha_str": "2019-03",
+      "año": 2019,
+      "mes": 3,
+      "ipec": 42.3177981694746,
+      "econ_personal_actual": 41.4775883175887,
+      "econ_pais_actual": 46.3082027741812,
+      "econ_pais_12m": 48.0836351446472
+    },
+    {
+      "fecha_str": "2019-04",
+      "año": 2019,
+      "mes": 4,
+      "ipec": 43.1882514953613,
+      "econ_personal_actual": 42.2115516662598,
+      "econ_pais_actual": 46.3004760742188,
+      "econ_pais_12m": 49.1816253662109
+    },
+    {
+      "fecha_str": "2019-05",
+      "año": 2019,
+      "mes": 5,
+      "ipec": 40.6598551416696,
+      "econ_personal_actual": 37.9624769006416,
+      "econ_pais_actual": 42.3477601476259,
+      "econ_pais_12m": 47.4868509210939
+    },
+    {
+      "fecha_str": "2019-06",
+      "año": 2019,
+      "mes": 6,
+      "ipec": 37.7687683105469,
+      "econ_personal_actual": 37.7945442199707,
+      "econ_pais_actual": 38.1079521179199,
+      "econ_pais_12m": 42.630012512207
+    },
+    {
+      "fecha_str": "2019-07",
+      "año": 2019,
+      "mes": 7,
+      "ipec": 40.2507362365723,
+      "econ_personal_actual": 38.7727394104004,
+      "econ_pais_actual": 40.5663261413574,
+      "econ_pais_12m": 46.37841796875
+    },
+    {
+      "fecha_str": "2019-08",
+      "año": 2019,
+      "mes": 8,
+      "ipec": 39.420280456543,
+      "econ_personal_actual": 38.1948585510254,
+      "econ_pais_actual": 39.1253662109375,
+      "econ_pais_12m": 43.3393707275391
+    },
+    {
+      "fecha_str": "2019-09",
+      "año": 2019,
+      "mes": 9,
+      "ipec": 38.5571594238281,
+      "econ_personal_actual": 40.0628929138184,
+      "econ_pais_actual": 39.5808982849121,
+      "econ_pais_12m": 42.7024803161621
+    },
+    {
+      "fecha_str": "2019-10",
+      "año": 2019,
+      "mes": 10,
+      "ipec": 36.691967010498,
+      "econ_personal_actual": 35.7708206176758,
+      "econ_pais_actual": 37.1545219421387,
+      "econ_pais_12m": 45.2680549621582
+    },
+    {
+      "fecha_str": "2019-11",
+      "año": 2019,
+      "mes": 11,
+      "ipec": 28.3098888397217,
+      "econ_personal_actual": 29.9847354888916,
+      "econ_pais_actual": 25.7133083343506,
+      "econ_pais_12m": 38.7073631286621
+    },
+    {
+      "fecha_str": "2019-12",
+      "año": 2019,
+      "mes": 12,
+      "ipec": 29.3578453063965,
+      "econ_personal_actual": 29.714038848877,
+      "econ_pais_actual": 26.5622520446777,
+      "econ_pais_12m": 36.5991592407227
+    },
+    {
+      "fecha_str": "2020-01",
+      "año": 2020,
+      "mes": 1,
+      "ipec": 30.4445896148682,
+      "econ_personal_actual": 33.6642379760742,
+      "econ_pais_actual": 27.1775970458984,
+      "econ_pais_12m": 35.9972763061523
+    },
+    {
+      "fecha_str": "2020-02",
+      "año": 2020,
+      "mes": 2,
+      "ipec": 32.6928634643555,
+      "econ_personal_actual": 35.4448890686035,
+      "econ_pais_actual": 30.4525699615479,
+      "econ_pais_12m": 37.559944152832
+    },
+    {
+      "fecha_str": "2020-03",
+      "año": 2020,
+      "mes": 3,
+      "ipec": 27.8127117156982,
+      "econ_personal_actual": 31.5606269836426,
+      "econ_pais_actual": 27.6207962036133,
+      "econ_pais_12m": 32.0236358642578
+    },
+    {
+      "fecha_str": "2020-04",
+      "año": 2020,
+      "mes": 4,
+      "ipec": 21.6031844850447,
+      "econ_personal_actual": 22.0014764363042,
+      "econ_pais_actual": 23.3554665455358,
+      "econ_pais_12m": 28.5609391734047
+    },
+    {
+      "fecha_str": "2020-05",
+      "año": 2020,
+      "mes": 5,
+      "ipec": 21.2214107513428,
+      "econ_personal_actual": 21.5909061431885,
+      "econ_pais_actual": 21.5431785583496,
+      "econ_pais_12m": 28.2890968322754
+    },
+    {
+      "fecha_str": "2020-06",
+      "año": 2020,
+      "mes": 6,
+      "ipec": 20.32440758,
+      "econ_personal_actual": 17.37353325,
+      "econ_pais_actual": 17.20301247,
+      "econ_pais_12m": 31.29063034
+    },
+    {
+      "fecha_str": "2020-07",
+      "año": 2020,
+      "mes": 7,
+      "ipec": 21.2187175750732,
+      "econ_personal_actual": 17.0094223022461,
+      "econ_pais_actual": 15.0793123245239,
+      "econ_pais_12m": 34.1641807556152
+    },
+    {
+      "fecha_str": "2020-08",
+      "año": 2020,
+      "mes": 8,
+      "ipec": 25.4814643859863,
+      "econ_personal_actual": 23.5984477996826,
+      "econ_pais_actual": 20.0895156860352,
+      "econ_pais_12m": 38.2552947998047
+    },
+    {
+      "fecha_str": "2020-09",
+      "año": 2020,
+      "mes": 9,
+      "ipec": 26.5412464141846,
+      "econ_personal_actual": 23.4820594787598,
+      "econ_pais_actual": 22.3847904205322,
+      "econ_pais_12m": 38.653923034668
+    },
+    {
+      "fecha_str": "2020-10",
+      "año": 2020,
+      "mes": 10,
+      "ipec": 29.9202766418457,
+      "econ_personal_actual": 26.122953414917,
+      "econ_pais_actual": 23.6977481842041,
+      "econ_pais_12m": 38.3243255615234
+    },
+    {
+      "fecha_str": "2020-11",
+      "año": 2020,
+      "mes": 11,
+      "ipec": 29.54660987854,
+      "econ_personal_actual": 26.5880336761475,
+      "econ_pais_actual": 25.5031776428223,
+      "econ_pais_12m": 41.4026565551758
+    },
+    {
+      "fecha_str": "2020-12",
+      "año": 2020,
+      "mes": 12,
+      "ipec": 29.8454399108887,
+      "econ_personal_actual": 26.9161529541016,
+      "econ_pais_actual": 26.1840076446533,
+      "econ_pais_12m": 37.7016563415527
+    },
+    {
+      "fecha_str": "2021-01",
+      "año": 2021,
+      "mes": 1,
+      "ipec": 29.4892616271973,
+      "econ_personal_actual": 27.7326774597168,
+      "econ_pais_actual": 27.0488319396973,
+      "econ_pais_12m": 37.0639381408691
+    },
+    {
+      "fecha_str": "2021-02",
+      "año": 2021,
+      "mes": 2,
+      "ipec": 31.97389793396,
+      "econ_personal_actual": 29.124719619751,
+      "econ_pais_actual": 30.4299449920654,
+      "econ_pais_12m": 43.8523597717285
+    },
+    {
+      "fecha_str": "2021-03",
+      "año": 2021,
+      "mes": 3,
+      "ipec": 29.1890926361084,
+      "econ_personal_actual": 25.3842391967773,
+      "econ_pais_actual": 28.6630191802979,
+      "econ_pais_12m": 39.2748222351074
+    },
+    {
+      "fecha_str": "2021-04",
+      "año": 2021,
+      "mes": 4,
+      "ipec": 24.900484085083,
+      "econ_personal_actual": 22.900463104248,
+      "econ_pais_actual": 22.3007621765137,
+      "econ_pais_12m": 34.1527786254883
+    },
+    {
+      "fecha_str": "2021-05",
+      "año": 2021,
+      "mes": 5,
+      "ipec": 29.8312282562256,
+      "econ_personal_actual": 28.9402141571045,
+      "econ_pais_actual": 27.1027393341064,
+      "econ_pais_12m": 39.0967750549316
+    },
+    {
+      "fecha_str": "2021-06",
+      "año": 2021,
+      "mes": 6,
+      "ipec": 33.3913993835449,
+      "econ_personal_actual": 33.0792198181152,
+      "econ_pais_actual": 34.1983833312988,
+      "econ_pais_12m": 43.7435760498047
+    },
+    {
+      "fecha_str": "2021-07",
+      "año": 2021,
+      "mes": 7,
+      "ipec": 37.4103240966797,
+      "econ_personal_actual": 35.453369140625,
+      "econ_pais_actual": 38.3371086120605,
+      "econ_pais_12m": 45.344165802002
+    },
+    {
+      "fecha_str": "2021-08",
+      "año": 2021,
+      "mes": 8,
+      "ipec": 39.330379486084,
+      "econ_personal_actual": 41.9276237487793,
+      "econ_pais_actual": 40.3582038879395,
+      "econ_pais_12m": 46.4277648925781
+    },
+    {
+      "fecha_str": "2021-09",
+      "año": 2021,
+      "mes": 9,
+      "ipec": 37.8615379333496,
+      "econ_personal_actual": 40.1886711120605,
+      "econ_pais_actual": 41.5845832824707,
+      "econ_pais_12m": 44.6783866882324
+    },
+    {
+      "fecha_str": "2021-10",
+      "año": 2021,
+      "mes": 10,
+      "ipec": 34.2330894470215,
+      "econ_personal_actual": 36.2333183288574,
+      "econ_pais_actual": 35.5556221008301,
+      "econ_pais_12m": 38.4664001464844
+    },
+    {
+      "fecha_str": "2021-11",
+      "año": 2021,
+      "mes": 11,
+      "ipec": 32.9615287780762,
+      "econ_personal_actual": 38.1511001586914,
+      "econ_pais_actual": 35.9736061096191,
+      "econ_pais_12m": 39.6995468139648
+    },
+    {
+      "fecha_str": "2021-12",
+      "año": 2021,
+      "mes": 12,
+      "ipec": 37.5793991088867,
+      "econ_personal_actual": 39.4529724121094,
+      "econ_pais_actual": 42.3655624389648,
+      "econ_pais_12m": 48.1754760742188
+    },
+    {
+      "fecha_str": "2022-01",
+      "año": 2022,
+      "mes": 1,
+      "ipec": 37.8788070678711,
+      "econ_personal_actual": 37.7886657714844,
+      "econ_pais_actual": 41.9930992126465,
+      "econ_pais_12m": 49.68994140625
+    },
+    {
+      "fecha_str": "2022-02",
+      "año": 2022,
+      "mes": 2,
+      "ipec": 33.5765762329102,
+      "econ_personal_actual": 34.9324951171875,
+      "econ_pais_actual": 36.0022964477539,
+      "econ_pais_12m": 43.9357414245605
+    },
+    {
+      "fecha_str": "2022-03",
+      "año": 2022,
+      "mes": 3,
+      "ipec": 32.7583885192871,
+      "econ_personal_actual": 34.4679756164551,
+      "econ_pais_actual": 32.680721282959,
+      "econ_pais_12m": 39.4491271972656
+    },
+    {
+      "fecha_str": "2022-04",
+      "año": 2022,
+      "mes": 4,
+      "ipec": 25.5887317657471,
+      "econ_personal_actual": 28.8535175323486,
+      "econ_pais_actual": 23.5511035919189,
+      "econ_pais_12m": 30.0176868438721
+    },
+    {
+      "fecha_str": "2022-05",
+      "año": 2022,
+      "mes": 5,
+      "ipec": 24.3452453613281,
+      "econ_personal_actual": 27.0344486236572,
+      "econ_pais_actual": 21.8480701446533,
+      "econ_pais_12m": 29.6232051849365
+    },
+    {
+      "fecha_str": "2022-06",
+      "año": 2022,
+      "mes": 6,
+      "ipec": 25.7195949554443,
+      "econ_personal_actual": 27.8218097686768,
+      "econ_pais_actual": 24.1305255889893,
+      "econ_pais_12m": 30.0860080718994
+    },
+    {
+      "fecha_str": "2022-07",
+      "año": 2022,
+      "mes": 7,
+      "ipec": 21.4527263641357,
+      "econ_personal_actual": 25.8627414703369,
+      "econ_pais_actual": 18.9032440185547,
+      "econ_pais_12m": 24.6761322021484
+    },
+    {
+      "fecha_str": "2022-08",
+      "año": 2022,
+      "mes": 8,
+      "ipec": 23.7233104705811,
+      "econ_personal_actual": 26.5011177062988,
+      "econ_pais_actual": 20.9305648803711,
+      "econ_pais_12m": 27.7130241394043
+    },
+    {
+      "fecha_str": "2022-09",
+      "año": 2022,
+      "mes": 9,
+      "ipec": 24.5860443115234,
+      "econ_personal_actual": 27.3386650085449,
+      "econ_pais_actual": 23.3087825775146,
+      "econ_pais_12m": 29.7740001678467
+    },
+    {
+      "fecha_str": "2022-10",
+      "año": 2022,
+      "mes": 10,
+      "ipec": 22.3426914215088,
+      "econ_personal_actual": 25.8785362243652,
+      "econ_pais_actual": 22.08616065979,
+      "econ_pais_12m": 26.0435009002686
+    },
+    {
+      "fecha_str": "2022-11",
+      "año": 2022,
+      "mes": 11,
+      "ipec": 24.2819671630859,
+      "econ_personal_actual": 26.4115810394287,
+      "econ_pais_actual": 23.3725891113281,
+      "econ_pais_12m": 28.6168212890625
+    },
+    {
+      "fecha_str": "2022-12",
+      "año": 2022,
+      "mes": 12,
+      "ipec": 23.0837116241455,
+      "econ_personal_actual": 25.7075653076172,
+      "econ_pais_actual": 20.9986095428467,
+      "econ_pais_12m": 27.7199516296387
+    },
+    {
+      "fecha_str": "2023-01",
+      "año": 2023,
+      "mes": 1,
+      "ipec": 24.5409965515137,
+      "econ_personal_actual": 28.0703258514404,
+      "econ_pais_actual": 21.7381191253662,
+      "econ_pais_12m": 29.6586303710938
+    },
+    {
+      "fecha_str": "2023-02",
+      "año": 2023,
+      "mes": 2,
+      "ipec": 28.4178352355957,
+      "econ_personal_actual": 31.5985012054443,
+      "econ_pais_actual": 25.1469650268555,
+      "econ_pais_12m": 36.1224784851074
+    },
+    {
+      "fecha_str": "2023-03",
+      "año": 2023,
+      "mes": 3,
+      "ipec": 28.5218887329102,
+      "econ_personal_actual": 30.9370670318604,
+      "econ_pais_actual": 26.0346908569336,
+      "econ_pais_12m": 35.6214408874512
+    },
+    {
+      "fecha_str": "2023-04",
+      "año": 2023,
+      "mes": 4,
+      "ipec": 26.4827575683594,
+      "econ_personal_actual": 29.2989521026611,
+      "econ_pais_actual": 24.4226093292236,
+      "econ_pais_12m": 33.6138229370117
+    },
+    {
+      "fecha_str": "2023-05",
+      "año": 2023,
+      "mes": 5,
+      "ipec": 27.8830416291197,
+      "econ_personal_actual": 29.081215378281,
+      "econ_pais_actual": 25.9528606723193,
+      "econ_pais_12m": 34.4031568118888
+    },
+    {
+      "fecha_str": "2023-06",
+      "año": 2023,
+      "mes": 6,
+      "ipec": 29.6270700199285,
+      "econ_personal_actual": 32.4235294742458,
+      "econ_pais_actual": 27.66389841847,
+      "econ_pais_12m": 37.4760815872655
+    },
+    {
+      "fecha_str": "2023-07",
+      "año": 2023,
+      "mes": 7,
+      "ipec": 30.2181462394228,
+      "econ_personal_actual": 31.0275763569696,
+      "econ_pais_actual": 28.7874201688969,
+      "econ_pais_12m": 36.5067559623477
+    },
+    {
+      "fecha_str": "2023-08",
+      "año": 2023,
+      "mes": 8,
+      "ipec": 29.3510314418253,
+      "econ_personal_actual": 31.1810976928507,
+      "econ_pais_actual": 27.3437930960517,
+      "econ_pais_12m": 35.9076453742857
+    },
+    {
+      "fecha_str": "2023-09",
+      "año": 2023,
+      "mes": 9,
+      "ipec": 29.355200639386,
+      "econ_personal_actual": 30.7343741629877,
+      "econ_pais_actual": 28.0756674240826,
+      "econ_pais_12m": 37.3413251579434
+    },
+    {
+      "fecha_str": "2023-10",
+      "año": 2023,
+      "mes": 10,
+      "ipec": 26.8477284857426,
+      "econ_personal_actual": 29.8515911787826,
+      "econ_pais_actual": 25.5620760225958,
+      "econ_pais_12m": 32.1985859508817
+    },
+    {
+      "fecha_str": "2023-11",
+      "año": 2023,
+      "mes": 11,
+      "ipec": 29.0320091630857,
+      "econ_personal_actual": 29.717875706589,
+      "econ_pais_actual": 27.8812567489819,
+      "econ_pais_12m": 36.169241226287
+    },
+    {
+      "fecha_str": "2023-12",
+      "año": 2023,
+      "mes": 12,
+      "ipec": 30.349120257583,
+      "econ_personal_actual": 30.8264222530629,
+      "econ_pais_actual": 27.7740925298445,
+      "econ_pais_12m": 35.8233624247889
+    },
+    {
+      "fecha_str": "2024-01",
+      "año": 2024,
+      "mes": 1,
+      "ipec": 31.3089596514568,
+      "econ_personal_actual": 32.1074981633814,
+      "econ_pais_actual": 29.2856419629277,
+      "econ_pais_12m": 39.0839464593116
+    },
+    {
+      "fecha_str": "2024-02",
+      "año": 2024,
+      "mes": 2,
+      "ipec": 31.9437724767015,
+      "econ_personal_actual": 34.7190070702211,
+      "econ_pais_actual": 30.3847831595466,
+      "econ_pais_12m": 38.8382215258836
+    },
+    {
+      "fecha_str": "2024-03",
+      "año": 2024,
+      "mes": 3,
+      "ipec": 31.4072051565644,
+      "econ_personal_actual": 33.278479113789,
+      "econ_pais_actual": 30.6566439738819,
+      "econ_pais_12m": 37.6966948247129
+    },
+    {
+      "fecha_str": "2024-04",
+      "año": 2024,
+      "mes": 4,
+      "ipec": 30.3939054719415,
+      "econ_personal_actual": 34.335326644385,
+      "econ_pais_actual": 27.3174360191492,
+      "econ_pais_12m": 34.9810161726814
+    },
+    {
+      "fecha_str": "2024-05",
+      "año": 2024,
+      "mes": 5,
+      "ipec": 28.1468374882943,
+      "econ_personal_actual": 30.9513303703867,
+      "econ_pais_actual": 27.126882522074,
+      "econ_pais_12m": 31.8471235736518
+    },
+    {
+      "fecha_str": "2024-06",
+      "año": 2024,
+      "mes": 6,
+      "ipec": 32.3894342104462,
+      "econ_personal_actual": 32.9751594634863,
+      "econ_pais_actual": 31.4380410676346,
+      "econ_pais_12m": 37.6983234630118
+    },
+    {
+      "fecha_str": "2024-07",
+      "año": 2024,
+      "mes": 7,
+      "ipec": 27.9983178698119,
+      "econ_personal_actual": 30.1899690698715,
+      "econ_pais_actual": 26.558514518069,
+      "econ_pais_12m": 32.5890234325665
+    },
+    {
+      "fecha_str": "2024-08",
+      "año": 2024,
+      "mes": 8,
+      "ipec": 33.2194937963985,
+      "econ_personal_actual": 35.9809270712532,
+      "econ_pais_actual": 31.4432609102111,
+      "econ_pais_12m": 38.9118217682857
+    },
+    {
+      "fecha_str": "2024-09",
+      "año": 2024,
+      "mes": 9,
+      "ipec": 31.87612308825,
+      "econ_personal_actual": 33.3892471739656,
+      "econ_pais_actual": 31.3793181459414,
+      "econ_pais_12m": 37.5477199374356
+    },
+    {
+      "fecha_str": "2024-10",
+      "año": 2024,
+      "mes": 10,
+      "ipec": 30.838705288399,
+      "econ_personal_actual": 32.1145215007171,
+      "econ_pais_actual": 29.6318569375926,
+      "econ_pais_12m": 34.7834985554751
+    },
+    {
+      "fecha_str": "2024-11",
+      "año": 2024,
+      "mes": 11,
+      "ipec": 32.2669645877089,
+      "econ_personal_actual": 34.3049753802807,
+      "econ_pais_actual": 30.081744498611,
+      "econ_pais_12m": 36.7409039271395
+    },
+    {
+      "fecha_str": "2024-12",
+      "año": 2024,
+      "mes": 12,
+      "ipec": 33.3101639272476,
+      "econ_personal_actual": 34.821978763751,
+      "econ_pais_actual": 32.1904869150028,
+      "econ_pais_12m": 39.4384281864377
+    },
+    {
+      "fecha_str": "2025-01",
+      "año": 2025,
+      "mes": 1,
+      "ipec": 35.2648914539487,
+      "econ_personal_actual": 36.7972179163494,
+      "econ_pais_actual": 33.9396407375049,
+      "econ_pais_12m": 40.9817224474259
+    },
+    {
+      "fecha_str": "2025-02",
+      "año": 2025,
+      "mes": 2,
+      "ipec": 36.3066328763179,
+      "econ_personal_actual": 38.3669940360193,
+      "econ_pais_actual": 36.0500152116315,
+      "econ_pais_12m": 41.5780137056891
+    },
+    {
+      "fecha_str": "2025-03",
+      "año": 2025,
+      "mes": 3,
+      "ipec": 34.7347447483856,
+      "econ_personal_actual": 37.5322961454581,
+      "econ_pais_actual": 33.7262245233206,
+      "econ_pais_12m": 38.0884708150236
+    },
+    {
+      "fecha_str": "2025-04",
+      "año": 2025,
+      "mes": 4,
+      "ipec": 34.4373602940074,
+      "econ_personal_actual": 36.9616027530052,
+      "econ_pais_actual": 34.6199369856326,
+      "econ_pais_12m": 39.4340092150143
+    },
+    {
+      "fecha_str": "2025-05",
+      "año": 2025,
+      "mes": 5,
+      "ipec": 33.4617391690831,
+      "econ_personal_actual": 34.5304024523728,
+      "econ_pais_actual": 31.5899116329657,
+      "econ_pais_12m": 39.6091256514807
+    },
+    {
+      "fecha_str": "2025-06",
+      "año": 2025,
+      "mes": 6,
+      "ipec": 35.0160832667821,
+      "econ_personal_actual": 36.0664618693735,
+      "econ_pais_actual": 34.0839823728819,
+      "econ_pais_12m": 40.4389314525841
+    },
+    {
+      "fecha_str": "2025-07",
+      "año": 2025,
+      "mes": 7,
+      "ipec": 35.2109160784745,
+      "econ_personal_actual": 35.4926765332256,
+      "econ_pais_actual": 32.0488624123746,
+      "econ_pais_12m": 40.882749743319
+    },
+    {
+      "fecha_str": "2025-08",
+      "año": 2025,
+      "mes": 8,
+      "ipec": 36.7976241808404,
+      "econ_personal_actual": 34.7499222636794,
+      "econ_pais_actual": 33.8029823224372,
+      "econ_pais_12m": 45.5912979463934
+    },
+    {
+      "fecha_str": "2025-09",
+      "año": 2025,
+      "mes": 9,
+      "ipec": 41.2744239900442,
+      "econ_personal_actual": 38.2614916325985,
+      "econ_pais_actual": 38.6235403898192,
+      "econ_pais_12m": 51.0783881027369
+    },
+    {
+      "fecha_str": "2025-10",
+      "año": 2025,
+      "mes": 10,
+      "ipec": 37.9034832244751,
+      "econ_personal_actual": 36.4375279235747,
+      "econ_pais_actual": 33.3714657107232,
+      "econ_pais_12m": 48.0421815556124
+    },
+    {
+      "fecha_str": "2025-11",
+      "año": 2025,
+      "mes": 11,
+      "ipec": 40.5990969137723,
+      "econ_personal_actual": 39.7591896345955,
+      "econ_pais_actual": 37.0747300564162,
+      "econ_pais_12m": 52.5339570834713
+    }
+  ],
+  "cep_encuestas": [
+    {
+      "encuesta": 71,
+      "año": 2014,
+      "mes": 7,
+      "gobierno": "Bachelet II",
+      "chile_progresando_pct": 43.3,
+      "chile_decadencia_pct": 6.0,
+      "aprueba_gob_pct": 51.7,
+      "n": 1442
+    },
+    {
+      "encuesta": 72,
+      "año": 2014,
+      "mes": 11,
+      "gobierno": "Bachelet II",
+      "chile_progresando_pct": 31.9,
+      "chile_decadencia_pct": 16.0,
+      "aprueba_gob_pct": 39.3,
+      "n": 1432
+    },
+    {
+      "encuesta": 73,
+      "año": 2015,
+      "mes": 4,
+      "gobierno": "Bachelet II",
+      "chile_progresando_pct": 16.6,
+      "chile_decadencia_pct": 20.9,
+      "aprueba_gob_pct": 29.7,
+      "n": 1434
+    },
+    {
+      "encuesta": 74,
+      "año": 2015,
+      "mes": 8,
+      "gobierno": "Bachelet II",
+      "chile_progresando_pct": 14.8,
+      "chile_decadencia_pct": 21.9,
+      "aprueba_gob_pct": 23.1,
+      "n": 1420
+    },
+    {
+      "encuesta": 75,
+      "año": 2015,
+      "mes": 11,
+      "gobierno": "Bachelet II",
+      "chile_progresando_pct": 18.0,
+      "chile_decadencia_pct": 17.4,
+      "aprueba_gob_pct": 24.7,
+      "n": 1449
+    },
+    {
+      "encuesta": 77,
+      "año": 2016,
+      "mes": 7,
+      "gobierno": "Bachelet II",
+      "chile_progresando_pct": 13.3,
+      "chile_decadencia_pct": 24.2,
+      "aprueba_gob_pct": 15.8,
+      "n": 1416
+    },
+    {
+      "encuesta": 78,
+      "año": 2016,
+      "mes": 11,
+      "gobierno": "Bachelet II",
+      "chile_progresando_pct": 16.9,
+      "chile_decadencia_pct": 15.7,
+      "aprueba_gob_pct": 20.6,
+      "n": 1464
+    },
+    {
+      "encuesta": 79,
+      "año": 2017,
+      "mes": 4,
+      "gobierno": "Bachelet II",
+      "chile_progresando_pct": 17.2,
+      "chile_decadencia_pct": 14.8,
+      "aprueba_gob_pct": 19.2,
+      "n": 1481
+    },
+    {
+      "encuesta": 80,
+      "año": 2017,
+      "mes": 7,
+      "gobierno": "Bachelet II",
+      "chile_progresando_pct": 16.2,
+      "chile_decadencia_pct": 13.7,
+      "aprueba_gob_pct": 21.7,
+      "n": 1419
+    },
+    {
+      "encuesta": 81,
+      "año": 2017,
+      "mes": 10,
+      "gobierno": "Bachelet II",
+      "chile_progresando_pct": 18.1,
+      "chile_decadencia_pct": 14.9,
+      "aprueba_gob_pct": 23.1,
+      "n": 1424
+    },
+    {
+      "encuesta": 82,
+      "año": 2018,
+      "mes": 10,
+      "gobierno": "Piñera II",
+      "chile_progresando_pct": 30.3,
+      "chile_decadencia_pct": 12.0,
+      "aprueba_gob_pct": 37.7,
+      "n": 1402
+    },
+    {
+      "encuesta": 83,
+      "año": 2019,
+      "mes": 5,
+      "gobierno": "Piñera II",
+      "chile_progresando_pct": 23.3,
+      "chile_decadencia_pct": 15.1,
+      "aprueba_gob_pct": 26.3,
+      "n": 1380
+    },
+    {
+      "encuesta": 84,
+      "año": 2019,
+      "mes": 12,
+      "gobierno": "Piñera II",
+      "chile_progresando_pct": 6.3,
+      "chile_decadencia_pct": 32.6,
+      "aprueba_gob_pct": 6.1,
+      "n": 1496
+    },
+    {
+      "encuesta": 85,
+      "año": 2021,
+      "mes": 8,
+      "gobierno": "Piñera II",
+      "chile_progresando_pct": 18.5,
+      "chile_decadencia_pct": 20.4,
+      "aprueba_gob_pct": 16.4,
+      "n": 1443
+    },
+    {
+      "encuesta": 86,
+      "año": 2022,
+      "mes": 4,
+      "gobierno": "Boric",
+      "chile_progresando_pct": 16.0,
+      "chile_decadencia_pct": 32.3,
+      "aprueba_gob_pct": 33.5,
+      "n": 1355
+    },
+    {
+      "encuesta": 88,
+      "año": 2022,
+      "mes": 11,
+      "gobierno": "Boric",
+      "chile_progresando_pct": 9.2,
+      "chile_decadencia_pct": 35.7,
+      "aprueba_gob_pct": 25.5,
+      "n": 1441
+    },
+    {
+      "encuesta": 89,
+      "año": 2023,
+      "mes": 6,
+      "gobierno": "Boric",
+      "chile_progresando_pct": 13.6,
+      "chile_decadencia_pct": 35.3,
+      "aprueba_gob_pct": 27.9,
+      "n": 1467
+    },
+    {
+      "encuesta": 90,
+      "año": 2023,
+      "mes": 9,
+      "gobierno": "Boric",
+      "chile_progresando_pct": 11.8,
+      "chile_decadencia_pct": 34.0,
+      "aprueba_gob_pct": 27.6,
+      "n": 1478
+    },
+    {
+      "encuesta": 91,
+      "año": 2024,
+      "mes": 6,
+      "gobierno": "Boric",
+      "chile_progresando_pct": 15.3,
+      "chile_decadencia_pct": 30.5,
+      "aprueba_gob_pct": 27.6,
+      "n": 1478
+    },
+    {
+      "encuesta": 92,
+      "año": 2024,
+      "mes": 8,
+      "gobierno": "Boric",
+      "chile_progresando_pct": 15.1,
+      "chile_decadencia_pct": 29.2,
+      "aprueba_gob_pct": 32.3,
+      "n": 1482
+    },
+    {
+      "encuesta": 93,
+      "año": 2025,
+      "mes": 3,
+      "gobierno": "Boric",
+      "chile_progresando_pct": 14.1,
+      "chile_decadencia_pct": 32.3,
+      "aprueba_gob_pct": 22.6,
+      "n": 1493
+    },
+    {
+      "encuesta": 94,
+      "año": 2025,
+      "mes": 5,
+      "gobierno": "Boric",
+      "chile_progresando_pct": 16.4,
+      "chile_decadencia_pct": 31.4,
+      "aprueba_gob_pct": 23.3,
+      "n": 1507
+    },
+    {
+      "encuesta": 95,
+      "año": 2025,
+      "mes": 10,
+      "gobierno": "Boric",
+      "chile_progresando_pct": 19.7,
+      "chile_decadencia_pct": 29.9,
+      "aprueba_gob_pct": 29.3,
+      "n": 1217
+    }
+  ],
+  "pib_anual": [
+    {
+      "año": 2010,
+      "pib_crecimiento_pct": 5.8
+    },
+    {
+      "año": 2011,
+      "pib_crecimiento_pct": 5.8
+    },
+    {
+      "año": 2012,
+      "pib_crecimiento_pct": 5.3
+    },
+    {
+      "año": 2013,
+      "pib_crecimiento_pct": 4.0
+    },
+    {
+      "año": 2014,
+      "pib_crecimiento_pct": 1.8
+    },
+    {
+      "año": 2015,
+      "pib_crecimiento_pct": 2.3
+    },
+    {
+      "año": 2016,
+      "pib_crecimiento_pct": 1.7
+    },
+    {
+      "año": 2017,
+      "pib_crecimiento_pct": 1.3
+    },
+    {
+      "año": 2018,
+      "pib_crecimiento_pct": 4.0
+    },
+    {
+      "año": 2019,
+      "pib_crecimiento_pct": 0.8
+    },
+    {
+      "año": 2020,
+      "pib_crecimiento_pct": -6.0
+    },
+    {
+      "año": 2021,
+      "pib_crecimiento_pct": 11.7
+    },
+    {
+      "año": 2022,
+      "pib_crecimiento_pct": 2.4
+    },
+    {
+      "año": 2023,
+      "pib_crecimiento_pct": 0.2
+    },
+    {
+      "año": 2024,
+      "pib_crecimiento_pct": 2.6
+    }
+  ],
+  "gini_historico": [
+    {
+      "año": 1987,
+      "gini": 56.2
+    },
+    {
+      "año": 1990,
+      "gini": 57.2
+    },
+    {
+      "año": 1992,
+      "gini": 54.8
+    },
+    {
+      "año": 1994,
+      "gini": 56.4
+    },
+    {
+      "año": 1996,
+      "gini": 54.9
+    },
+    {
+      "año": 1998,
+      "gini": 55.5
+    },
+    {
+      "año": 2000,
+      "gini": 52.8
+    },
+    {
+      "año": 2003,
+      "gini": 51.5
+    },
+    {
+      "año": 2006,
+      "gini": 47.7
+    },
+    {
+      "año": 2009,
+      "gini": 47.4
+    },
+    {
+      "año": 2011,
+      "gini": 46.9
+    },
+    {
+      "año": 2013,
+      "gini": 46.8
+    },
+    {
+      "año": 2015,
+      "gini": 45.3
+    },
+    {
+      "año": 2017,
+      "gini": 45.3
+    },
+    {
+      "año": 2020,
+      "gini": 47.0
+    },
+    {
+      "año": 2022,
+      "gini": 43.0
+    }
+  ],
+  "trends_ipec_mensual": [
+    {
+      "fecha": "2014-01-01",
+      "año": 2014,
+      "mes": 1,
+      "narrativa_crisis_idx": 2.2,
+      "delincuencia": 5,
+      "crisis Chile": 6,
+      "ipec": 54.6
+    },
+    {
+      "fecha": "2014-02-01",
+      "año": 2014,
+      "mes": 2,
+      "narrativa_crisis_idx": 1.8,
+      "delincuencia": 5,
+      "crisis Chile": 4,
+      "ipec": 54.3
+    },
+    {
+      "fecha": "2014-03-01",
+      "año": 2014,
+      "mes": 3,
+      "narrativa_crisis_idx": 4.2,
+      "delincuencia": 9,
+      "crisis Chile": 12,
+      "ipec": 53.4
+    },
+    {
+      "fecha": "2014-04-01",
+      "año": 2014,
+      "mes": 4,
+      "narrativa_crisis_idx": 5.2,
+      "delincuencia": 9,
+      "crisis Chile": 17,
+      "ipec": 52.6
+    },
+    {
+      "fecha": "2014-05-01",
+      "año": 2014,
+      "mes": 5,
+      "narrativa_crisis_idx": 6.6,
+      "delincuencia": 13,
+      "crisis Chile": 20,
+      "ipec": 50.3
+    },
+    {
+      "fecha": "2014-06-01",
+      "año": 2014,
+      "mes": 6,
+      "narrativa_crisis_idx": 6.6,
+      "delincuencia": 12,
+      "crisis Chile": 20,
+      "ipec": 49.2
+    },
+    {
+      "fecha": "2014-07-01",
+      "año": 2014,
+      "mes": 7,
+      "narrativa_crisis_idx": 3.4,
+      "delincuencia": 8,
+      "crisis Chile": 9,
+      "ipec": 47.5
+    },
+    {
+      "fecha": "2014-08-01",
+      "año": 2014,
+      "mes": 8,
+      "narrativa_crisis_idx": 5.6,
+      "delincuencia": 14,
+      "crisis Chile": 14,
+      "ipec": 43.1
+    },
+    {
+      "fecha": "2014-09-01",
+      "año": 2014,
+      "mes": 9,
+      "narrativa_crisis_idx": 5.4,
+      "delincuencia": 12,
+      "crisis Chile": 15,
+      "ipec": 42.5
+    },
+    {
+      "fecha": "2014-10-01",
+      "año": 2014,
+      "mes": 10,
+      "narrativa_crisis_idx": 6.0,
+      "delincuencia": 13,
+      "crisis Chile": 17,
+      "ipec": 43.1
+    },
+    {
+      "fecha": "2014-11-01",
+      "año": 2014,
+      "mes": 11,
+      "narrativa_crisis_idx": 6.0,
+      "delincuencia": 13,
+      "crisis Chile": 16,
+      "ipec": 41.1
+    },
+    {
+      "fecha": "2014-12-01",
+      "año": 2014,
+      "mes": 12,
+      "narrativa_crisis_idx": 3.6,
+      "delincuencia": 9,
+      "crisis Chile": 9,
+      "ipec": 45.3
+    },
+    {
+      "fecha": "2015-01-01",
+      "año": 2015,
+      "mes": 1,
+      "narrativa_crisis_idx": 2.4,
+      "delincuencia": 8,
+      "crisis Chile": 4,
+      "ipec": 41.9
+    },
+    {
+      "fecha": "2015-02-01",
+      "año": 2015,
+      "mes": 2,
+      "narrativa_crisis_idx": 2.2,
+      "delincuencia": 7,
+      "crisis Chile": 4,
+      "ipec": 44.7
+    },
+    {
+      "fecha": "2015-03-01",
+      "año": 2015,
+      "mes": 3,
+      "narrativa_crisis_idx": 4.0,
+      "delincuencia": 7,
+      "crisis Chile": 13,
+      "ipec": 39.7
+    },
+    {
+      "fecha": "2015-04-01",
+      "año": 2015,
+      "mes": 4,
+      "narrativa_crisis_idx": 5.8,
+      "delincuencia": 11,
+      "crisis Chile": 18,
+      "ipec": 38.3
+    },
+    {
+      "fecha": "2015-05-01",
+      "año": 2015,
+      "mes": 5,
+      "narrativa_crisis_idx": 6.2,
+      "delincuencia": 12,
+      "crisis Chile": 19,
+      "ipec": 39.0
+    },
+    {
+      "fecha": "2015-06-01",
+      "año": 2015,
+      "mes": 6,
+      "narrativa_crisis_idx": 6.8,
+      "delincuencia": 14,
+      "crisis Chile": 20,
+      "ipec": 37.2
+    },
+    {
+      "fecha": "2015-07-01",
+      "año": 2015,
+      "mes": 7,
+      "narrativa_crisis_idx": 7.8,
+      "delincuencia": 27,
+      "crisis Chile": 12,
+      "ipec": 34.3
+    },
+    {
+      "fecha": "2015-08-01",
+      "año": 2015,
+      "mes": 8,
+      "narrativa_crisis_idx": 10.0,
+      "delincuencia": 31,
+      "crisis Chile": 17,
+      "ipec": 33.9
+    },
+    {
+      "fecha": "2015-09-01",
+      "año": 2015,
+      "mes": 9,
+      "narrativa_crisis_idx": 9.4,
+      "delincuencia": 27,
+      "crisis Chile": 18,
+      "ipec": 34.1
+    },
+    {
+      "fecha": "2015-10-01",
+      "año": 2015,
+      "mes": 10,
+      "narrativa_crisis_idx": 8.4,
+      "delincuencia": 26,
+      "crisis Chile": 16,
+      "ipec": 35.2
+    },
+    {
+      "fecha": "2015-11-01",
+      "año": 2015,
+      "mes": 11,
+      "narrativa_crisis_idx": 8.2,
+      "delincuencia": 21,
+      "crisis Chile": 19,
+      "ipec": 36.4
+    },
+    {
+      "fecha": "2015-12-01",
+      "año": 2015,
+      "mes": 12,
+      "narrativa_crisis_idx": 4.6,
+      "delincuencia": 14,
+      "crisis Chile": 9,
+      "ipec": 37.0
+    },
+    {
+      "fecha": "2016-01-01",
+      "año": 2016,
+      "mes": 1,
+      "narrativa_crisis_idx": 3.0,
+      "delincuencia": 9,
+      "crisis Chile": 6,
+      "ipec": 34.3
+    },
+    {
+      "fecha": "2016-02-01",
+      "año": 2016,
+      "mes": 2,
+      "narrativa_crisis_idx": 2.8,
+      "delincuencia": 9,
+      "crisis Chile": 5,
+      "ipec": 37.6
+    },
+    {
+      "fecha": "2016-03-01",
+      "año": 2016,
+      "mes": 3,
+      "narrativa_crisis_idx": 6.2,
+      "delincuencia": 16,
+      "crisis Chile": 15,
+      "ipec": 35.5
+    },
+    {
+      "fecha": "2016-04-01",
+      "año": 2016,
+      "mes": 4,
+      "narrativa_crisis_idx": 6.8,
+      "delincuencia": 17,
+      "crisis Chile": 17,
+      "ipec": 34.6
+    },
+    {
+      "fecha": "2016-05-01",
+      "año": 2016,
+      "mes": 5,
+      "narrativa_crisis_idx": 8.8,
+      "delincuencia": 22,
+      "crisis Chile": 22,
+      "ipec": 33.9
+    },
+    {
+      "fecha": "2016-06-01",
+      "año": 2016,
+      "mes": 6,
+      "narrativa_crisis_idx": 7.8,
+      "delincuencia": 22,
+      "crisis Chile": 17,
+      "ipec": 35.1
+    },
+    {
+      "fecha": "2016-07-01",
+      "año": 2016,
+      "mes": 7,
+      "narrativa_crisis_idx": 4.8,
+      "delincuencia": 14,
+      "crisis Chile": 10,
+      "ipec": 33.0
+    },
+    {
+      "fecha": "2016-08-01",
+      "año": 2016,
+      "mes": 8,
+      "narrativa_crisis_idx": 6.4,
+      "delincuencia": 18,
+      "crisis Chile": 13,
+      "ipec": 31.5
+    },
+    {
+      "fecha": "2016-09-01",
+      "año": 2016,
+      "mes": 9,
+      "narrativa_crisis_idx": 5.8,
+      "delincuencia": 16,
+      "crisis Chile": 13,
+      "ipec": 33.4
+    },
+    {
+      "fecha": "2016-10-01",
+      "año": 2016,
+      "mes": 10,
+      "narrativa_crisis_idx": 5.8,
+      "delincuencia": 16,
+      "crisis Chile": 13,
+      "ipec": 36.2
+    },
+    {
+      "fecha": "2016-11-01",
+      "año": 2016,
+      "mes": 11,
+      "narrativa_crisis_idx": 7.0,
+      "delincuencia": 20,
+      "crisis Chile": 15,
+      "ipec": 37.2218911006787
+    },
+    {
+      "fecha": "2016-12-01",
+      "año": 2016,
+      "mes": 12,
+      "narrativa_crisis_idx": 3.6,
+      "delincuencia": 12,
+      "crisis Chile": 6,
+      "ipec": 40.0845733308129
+    },
+    {
+      "fecha": "2017-01-01",
+      "año": 2017,
+      "mes": 1,
+      "narrativa_crisis_idx": 2.4,
+      "delincuencia": 8,
+      "crisis Chile": 4,
+      "ipec": 39.2009791721606
+    },
+    {
+      "fecha": "2017-02-01",
+      "año": 2017,
+      "mes": 2,
+      "narrativa_crisis_idx": 1.8,
+      "delincuencia": 6,
+      "crisis Chile": 3,
+      "ipec": 36.9834639343112
+    },
+    {
+      "fecha": "2017-03-01",
+      "año": 2017,
+      "mes": 3,
+      "narrativa_crisis_idx": 4.0,
+      "delincuencia": 9,
+      "crisis Chile": 11,
+      "ipec": 37.3240600569748
+    },
+    {
+      "fecha": "2017-04-01",
+      "año": 2017,
+      "mes": 4,
+      "narrativa_crisis_idx": 5.4,
+      "delincuencia": 13,
+      "crisis Chile": 14,
+      "ipec": 40.0736813746942
+    },
+    {
+      "fecha": "2017-05-01",
+      "año": 2017,
+      "mes": 5,
+      "narrativa_crisis_idx": 6.8,
+      "delincuencia": 16,
+      "crisis Chile": 17,
+      "ipec": 40.5627638758705
+    },
+    {
+      "fecha": "2017-06-01",
+      "año": 2017,
+      "mes": 6,
+      "narrativa_crisis_idx": 7.2,
+      "delincuencia": 18,
+      "crisis Chile": 17,
+      "ipec": 40.8128735171361
+    },
+    {
+      "fecha": "2017-07-01",
+      "año": 2017,
+      "mes": 7,
+      "narrativa_crisis_idx": 4.0,
+      "delincuencia": 13,
+      "crisis Chile": 7,
+      "ipec": 41.0489280574002
+    },
+    {
+      "fecha": "2017-08-01",
+      "año": 2017,
+      "mes": 8,
+      "narrativa_crisis_idx": 6.0,
+      "delincuencia": 18,
+      "crisis Chile": 12,
+      "ipec": 41.1290954336901
+    },
+    {
+      "fecha": "2017-09-01",
+      "año": 2017,
+      "mes": 9,
+      "narrativa_crisis_idx": 5.2,
+      "delincuencia": 14,
+      "crisis Chile": 12,
+      "ipec": 45.8907678971763
+    },
+    {
+      "fecha": "2017-10-01",
+      "año": 2017,
+      "mes": 10,
+      "narrativa_crisis_idx": 6.4,
+      "delincuencia": 20,
+      "crisis Chile": 12,
+      "ipec": 46.4527635244824
+    },
+    {
+      "fecha": "2017-11-01",
+      "año": 2017,
+      "mes": 11,
+      "narrativa_crisis_idx": 8.4,
+      "delincuencia": 24,
+      "crisis Chile": 17,
+      "ipec": 47.3843443944941
+    },
+    {
+      "fecha": "2017-12-01",
+      "año": 2017,
+      "mes": 12,
+      "narrativa_crisis_idx": 3.6,
+      "delincuencia": 10,
+      "crisis Chile": 8,
+      "ipec": 53.1490158741031
+    },
+    {
+      "fecha": "2018-01-01",
+      "año": 2018,
+      "mes": 1,
+      "narrativa_crisis_idx": 2.4,
+      "delincuencia": 8,
+      "crisis Chile": 4,
+      "ipec": 51.4918740707036
+    },
+    {
+      "fecha": "2018-02-01",
+      "año": 2018,
+      "mes": 2,
+      "narrativa_crisis_idx": 2.6,
+      "delincuencia": 9,
+      "crisis Chile": 4,
+      "ipec": 51.1
+    },
+    {
+      "fecha": "2018-03-01",
+      "año": 2018,
+      "mes": 3,
+      "narrativa_crisis_idx": 4.8,
+      "delincuencia": 11,
+      "crisis Chile": 12,
+      "ipec": 50.0
+    },
+    {
+      "fecha": "2018-04-01",
+      "año": 2018,
+      "mes": 4,
+      "narrativa_crisis_idx": 6.2,
+      "delincuencia": 14,
+      "crisis Chile": 17,
+      "ipec": 51.2499173761192
+    },
+    {
+      "fecha": "2018-05-01",
+      "año": 2018,
+      "mes": 5,
+      "narrativa_crisis_idx": 7.2,
+      "delincuencia": 17,
+      "crisis Chile": 18,
+      "ipec": 51.2044801374976
+    },
+    {
+      "fecha": "2018-06-01",
+      "año": 2018,
+      "mes": 6,
+      "narrativa_crisis_idx": 7.8,
+      "delincuencia": 21,
+      "crisis Chile": 18,
+      "ipec": 52.734591947883
+    },
+    {
+      "fecha": "2018-07-01",
+      "año": 2018,
+      "mes": 7,
+      "narrativa_crisis_idx": 4.2,
+      "delincuencia": 12,
+      "crisis Chile": 8,
+      "ipec": 49.9954748938837
+    },
+    {
+      "fecha": "2018-08-01",
+      "año": 2018,
+      "mes": 8,
+      "narrativa_crisis_idx": 5.8,
+      "delincuencia": 14,
+      "crisis Chile": 15,
+      "ipec": 46.9748398322785
+    },
+    {
+      "fecha": "2018-09-01",
+      "año": 2018,
+      "mes": 9,
+      "narrativa_crisis_idx": 5.0,
+      "delincuencia": 9,
+      "crisis Chile": 15,
+      "ipec": 46.0701083638492
+    },
+    {
+      "fecha": "2018-10-01",
+      "año": 2018,
+      "mes": 10,
+      "narrativa_crisis_idx": 6.0,
+      "delincuencia": 12,
+      "crisis Chile": 17,
+      "ipec": 46.6685277612505
+    },
+    {
+      "fecha": "2018-11-01",
+      "año": 2018,
+      "mes": 11,
+      "narrativa_crisis_idx": 6.2,
+      "delincuencia": 13,
+      "crisis Chile": 17,
+      "ipec": 44.938385446545
+    },
+    {
+      "fecha": "2018-12-01",
+      "año": 2018,
+      "mes": 12,
+      "narrativa_crisis_idx": 2.8,
+      "delincuencia": 7,
+      "crisis Chile": 7,
+      "ipec": 44.5897810160383
+    },
+    {
+      "fecha": "2019-01-01",
+      "año": 2019,
+      "mes": 1,
+      "narrativa_crisis_idx": 2.6,
+      "delincuencia": 8,
+      "crisis Chile": 5,
+      "ipec": 47.0479850769043
+    },
+    {
+      "fecha": "2019-02-01",
+      "año": 2019,
+      "mes": 2,
+      "narrativa_crisis_idx": 2.4,
+      "delincuencia": 8,
+      "crisis Chile": 4,
+      "ipec": 46.2771034240723
+    },
+    {
+      "fecha": "2019-03-01",
+      "año": 2019,
+      "mes": 3,
+      "narrativa_crisis_idx": 5.0,
+      "delincuencia": 12,
+      "crisis Chile": 13,
+      "ipec": 42.3177981694746
+    },
+    {
+      "fecha": "2019-04-01",
+      "año": 2019,
+      "mes": 4,
+      "narrativa_crisis_idx": 6.0,
+      "delincuencia": 12,
+      "crisis Chile": 16,
+      "ipec": 43.1882514953613
+    },
+    {
+      "fecha": "2019-05-01",
+      "año": 2019,
+      "mes": 5,
+      "narrativa_crisis_idx": 6.0,
+      "delincuencia": 14,
+      "crisis Chile": 16,
+      "ipec": 40.6598551416696
+    },
+    {
+      "fecha": "2019-06-01",
+      "año": 2019,
+      "mes": 6,
+      "narrativa_crisis_idx": 6.0,
+      "delincuencia": 13,
+      "crisis Chile": 17,
+      "ipec": 37.7687683105469
+    },
+    {
+      "fecha": "2019-07-01",
+      "año": 2019,
+      "mes": 7,
+      "narrativa_crisis_idx": 3.8,
+      "delincuencia": 9,
+      "crisis Chile": 10,
+      "ipec": 40.2507362365723
+    },
+    {
+      "fecha": "2019-08-01",
+      "año": 2019,
+      "mes": 8,
+      "narrativa_crisis_idx": 5.0,
+      "delincuencia": 10,
+      "crisis Chile": 15,
+      "ipec": 39.420280456543
+    },
+    {
+      "fecha": "2019-09-01",
+      "año": 2019,
+      "mes": 9,
+      "narrativa_crisis_idx": 5.6,
+      "delincuencia": 12,
+      "crisis Chile": 16,
+      "ipec": 38.5571594238281
+    },
+    {
+      "fecha": "2019-10-01",
+      "año": 2019,
+      "mes": 10,
+      "narrativa_crisis_idx": 19.6,
+      "delincuencia": 16,
+      "crisis Chile": 69,
+      "ipec": 36.691967010498
+    },
+    {
+      "fecha": "2019-11-01",
+      "año": 2019,
+      "mes": 11,
+      "narrativa_crisis_idx": 23.2,
+      "delincuencia": 12,
+      "crisis Chile": 100,
+      "ipec": 28.3098888397217
+    },
+    {
+      "fecha": "2019-12-01",
+      "año": 2019,
+      "mes": 12,
+      "narrativa_crisis_idx": 8.0,
+      "delincuencia": 5,
+      "crisis Chile": 34,
+      "ipec": 29.3578453063965
+    },
+    {
+      "fecha": "2020-01-01",
+      "año": 2020,
+      "mes": 1,
+      "narrativa_crisis_idx": 4.2,
+      "delincuencia": 6,
+      "crisis Chile": 14,
+      "ipec": 30.4445896148682
+    },
+    {
+      "fecha": "2020-02-01",
+      "año": 2020,
+      "mes": 2,
+      "narrativa_crisis_idx": 3.2,
+      "delincuencia": 6,
+      "crisis Chile": 9,
+      "ipec": 32.6928634643555
+    },
+    {
+      "fecha": "2020-03-01",
+      "año": 2020,
+      "mes": 3,
+      "narrativa_crisis_idx": 9.4,
+      "delincuencia": 6,
+      "crisis Chile": 39,
+      "ipec": 27.8127117156982
+    },
+    {
+      "fecha": "2020-04-01",
+      "año": 2020,
+      "mes": 4,
+      "narrativa_crisis_idx": 8.0,
+      "delincuencia": 6,
+      "crisis Chile": 32,
+      "ipec": 21.6031844850447
+    },
+    {
+      "fecha": "2020-05-01",
+      "año": 2020,
+      "mes": 5,
+      "narrativa_crisis_idx": 7.2,
+      "delincuencia": 10,
+      "crisis Chile": 21,
+      "ipec": 21.2214107513428
+    },
+    {
+      "fecha": "2020-06-01",
+      "año": 2020,
+      "mes": 6,
+      "narrativa_crisis_idx": 5.4,
+      "delincuencia": 9,
+      "crisis Chile": 17,
+      "ipec": 20.32440758
+    },
+    {
+      "fecha": "2020-07-01",
+      "año": 2020,
+      "mes": 7,
+      "narrativa_crisis_idx": 5.6,
+      "delincuencia": 8,
+      "crisis Chile": 17,
+      "ipec": 21.2187175750732
+    },
+    {
+      "fecha": "2020-08-01",
+      "año": 2020,
+      "mes": 8,
+      "narrativa_crisis_idx": 4.1,
+      "delincuencia": 7,
+      "crisis Chile": 13,
+      "ipec": 25.4814643859863
+    },
+    {
+      "fecha": "2020-09-01",
+      "año": 2020,
+      "mes": 9,
+      "narrativa_crisis_idx": 4.8,
+      "delincuencia": 8,
+      "crisis Chile": 16,
+      "ipec": 26.5412464141846
+    },
+    {
+      "fecha": "2020-10-01",
+      "año": 2020,
+      "mes": 10,
+      "narrativa_crisis_idx": 5.2,
+      "delincuencia": 8,
+      "crisis Chile": 17,
+      "ipec": 29.9202766418457
+    },
+    {
+      "fecha": "2020-11-01",
+      "año": 2020,
+      "mes": 11,
+      "narrativa_crisis_idx": 5.0,
+      "delincuencia": 8,
+      "crisis Chile": 17,
+      "ipec": 29.54660987854
+    },
+    {
+      "fecha": "2020-12-01",
+      "año": 2020,
+      "mes": 12,
+      "narrativa_crisis_idx": 3.8,
+      "delincuencia": 8,
+      "crisis Chile": 11,
+      "ipec": 29.8454399108887
+    },
+    {
+      "fecha": "2021-01-01",
+      "año": 2021,
+      "mes": 1,
+      "narrativa_crisis_idx": 2.6,
+      "delincuencia": 7,
+      "crisis Chile": 5,
+      "ipec": 29.4892616271973
+    },
+    {
+      "fecha": "2021-02-01",
+      "año": 2021,
+      "mes": 2,
+      "narrativa_crisis_idx": 2.4,
+      "delincuencia": 7,
+      "crisis Chile": 4,
+      "ipec": 31.97389793396
+    },
+    {
+      "fecha": "2021-03-01",
+      "año": 2021,
+      "mes": 3,
+      "narrativa_crisis_idx": 4.4,
+      "delincuencia": 12,
+      "crisis Chile": 10,
+      "ipec": 29.1890926361084
+    },
+    {
+      "fecha": "2021-04-01",
+      "año": 2021,
+      "mes": 4,
+      "narrativa_crisis_idx": 5.4,
+      "delincuencia": 11,
+      "crisis Chile": 16,
+      "ipec": 24.900484085083
+    },
+    {
+      "fecha": "2021-05-01",
+      "año": 2021,
+      "mes": 5,
+      "narrativa_crisis_idx": 5.0,
+      "delincuencia": 9,
+      "crisis Chile": 15,
+      "ipec": 29.8312282562256
+    },
+    {
+      "fecha": "2021-06-01",
+      "año": 2021,
+      "mes": 6,
+      "narrativa_crisis_idx": 5.4,
+      "delincuencia": 9,
+      "crisis Chile": 16,
+      "ipec": 33.3913993835449
+    },
+    {
+      "fecha": "2021-07-01",
+      "año": 2021,
+      "mes": 7,
+      "narrativa_crisis_idx": 3.8,
+      "delincuencia": 9,
+      "crisis Chile": 9,
+      "ipec": 37.4103240966797
+    },
+    {
+      "fecha": "2021-08-01",
+      "año": 2021,
+      "mes": 8,
+      "narrativa_crisis_idx": 4.4,
+      "delincuencia": 7,
+      "crisis Chile": 14,
+      "ipec": 39.330379486084
+    },
+    {
+      "fecha": "2021-09-01",
+      "año": 2021,
+      "mes": 9,
+      "narrativa_crisis_idx": 5.0,
+      "delincuencia": 8,
+      "crisis Chile": 16,
+      "ipec": 37.8615379333496
+    },
+    {
+      "fecha": "2021-10-01",
+      "año": 2021,
+      "mes": 10,
+      "narrativa_crisis_idx": 5.4,
+      "delincuencia": 11,
+      "crisis Chile": 16,
+      "ipec": 34.2330894470215
+    },
+    {
+      "fecha": "2021-11-01",
+      "año": 2021,
+      "mes": 11,
+      "narrativa_crisis_idx": 5.8,
+      "delincuencia": 11,
+      "crisis Chile": 16,
+      "ipec": 32.9615287780762
+    },
+    {
+      "fecha": "2021-12-01",
+      "año": 2021,
+      "mes": 12,
+      "narrativa_crisis_idx": 3.0,
+      "delincuencia": 7,
+      "crisis Chile": 8,
+      "ipec": 37.5793991088867
+    },
+    {
+      "fecha": "2022-01-01",
+      "año": 2022,
+      "mes": 1,
+      "narrativa_crisis_idx": 3.0,
+      "delincuencia": 10,
+      "crisis Chile": 5,
+      "ipec": 37.8788070678711
+    },
+    {
+      "fecha": "2022-02-01",
+      "año": 2022,
+      "mes": 2,
+      "narrativa_crisis_idx": 3.4,
+      "delincuencia": 10,
+      "crisis Chile": 6,
+      "ipec": 33.5765762329102
+    },
+    {
+      "fecha": "2022-03-01",
+      "año": 2022,
+      "mes": 3,
+      "narrativa_crisis_idx": 4.7,
+      "delincuencia": 11,
+      "crisis Chile": 12,
+      "ipec": 32.7583885192871
+    },
+    {
+      "fecha": "2022-04-01",
+      "año": 2022,
+      "mes": 4,
+      "narrativa_crisis_idx": 7.2,
+      "delincuencia": 15,
+      "crisis Chile": 18,
+      "ipec": 25.5887317657471
+    },
+    {
+      "fecha": "2022-05-01",
+      "año": 2022,
+      "mes": 5,
+      "narrativa_crisis_idx": 7.0,
+      "delincuencia": 18,
+      "crisis Chile": 16,
+      "ipec": 24.3452453613281
+    },
+    {
+      "fecha": "2022-06-01",
+      "año": 2022,
+      "mes": 6,
+      "narrativa_crisis_idx": 7.8,
+      "delincuencia": 20,
+      "crisis Chile": 17,
+      "ipec": 25.7195949554443
+    },
+    {
+      "fecha": "2022-07-01",
+      "año": 2022,
+      "mes": 7,
+      "narrativa_crisis_idx": 5.8,
+      "delincuencia": 16,
+      "crisis Chile": 11,
+      "ipec": 21.4527263641357
+    },
+    {
+      "fecha": "2022-08-01",
+      "año": 2022,
+      "mes": 8,
+      "narrativa_crisis_idx": 7.8,
+      "delincuencia": 21,
+      "crisis Chile": 16,
+      "ipec": 23.7233104705811
+    },
+    {
+      "fecha": "2022-09-01",
+      "año": 2022,
+      "mes": 9,
+      "narrativa_crisis_idx": 7.6,
+      "delincuencia": 20,
+      "crisis Chile": 15,
+      "ipec": 24.5860443115234
+    },
+    {
+      "fecha": "2022-10-01",
+      "año": 2022,
+      "mes": 10,
+      "narrativa_crisis_idx": 8.1,
+      "delincuencia": 23,
+      "crisis Chile": 16,
+      "ipec": 22.3426914215088
+    },
+    {
+      "fecha": "2022-11-01",
+      "año": 2022,
+      "mes": 11,
+      "narrativa_crisis_idx": 7.4,
+      "delincuencia": 19,
+      "crisis Chile": 15,
+      "ipec": 24.2819671630859
+    },
+    {
+      "fecha": "2022-12-01",
+      "año": 2022,
+      "mes": 12,
+      "narrativa_crisis_idx": 4.4,
+      "delincuencia": 13,
+      "crisis Chile": 9,
+      "ipec": 23.0837116241455
+    },
+    {
+      "fecha": "2023-01-01",
+      "año": 2023,
+      "mes": 1,
+      "narrativa_crisis_idx": 3.8,
+      "delincuencia": 12,
+      "crisis Chile": 6,
+      "ipec": 24.5409965515137
+    },
+    {
+      "fecha": "2023-02-01",
+      "año": 2023,
+      "mes": 2,
+      "narrativa_crisis_idx": 2.8,
+      "delincuencia": 10,
+      "crisis Chile": 4,
+      "ipec": 28.4178352355957
+    },
+    {
+      "fecha": "2023-03-01",
+      "año": 2023,
+      "mes": 3,
+      "narrativa_crisis_idx": 6.0,
+      "delincuencia": 18,
+      "crisis Chile": 12,
+      "ipec": 28.5218887329102
+    },
+    {
+      "fecha": "2023-04-01",
+      "año": 2023,
+      "mes": 4,
+      "narrativa_crisis_idx": 10.0,
+      "delincuencia": 29,
+      "crisis Chile": 19,
+      "ipec": 26.4827575683594
+    },
+    {
+      "fecha": "2023-05-01",
+      "año": 2023,
+      "mes": 5,
+      "narrativa_crisis_idx": 7.6,
+      "delincuencia": 19,
+      "crisis Chile": 16,
+      "ipec": 27.8830416291197
+    },
+    {
+      "fecha": "2023-06-01",
+      "año": 2023,
+      "mes": 6,
+      "narrativa_crisis_idx": 6.8,
+      "delincuencia": 16,
+      "crisis Chile": 16,
+      "ipec": 29.6270700199285
+    },
+    {
+      "fecha": "2023-07-01",
+      "año": 2023,
+      "mes": 7,
+      "narrativa_crisis_idx": 4.2,
+      "delincuencia": 11,
+      "crisis Chile": 9,
+      "ipec": 30.2181462394228
+    },
+    {
+      "fecha": "2023-08-01",
+      "año": 2023,
+      "mes": 8,
+      "narrativa_crisis_idx": 5.8,
+      "delincuencia": 14,
+      "crisis Chile": 13,
+      "ipec": 29.3510314418253
+    },
+    {
+      "fecha": "2023-09-01",
+      "año": 2023,
+      "mes": 9,
+      "narrativa_crisis_idx": 6.1,
+      "delincuencia": 15,
+      "crisis Chile": 14,
+      "ipec": 29.355200639386
+    },
+    {
+      "fecha": "2023-10-01",
+      "año": 2023,
+      "mes": 10,
+      "narrativa_crisis_idx": 6.2,
+      "delincuencia": 15,
+      "crisis Chile": 14,
+      "ipec": 26.8477284857426
+    },
+    {
+      "fecha": "2023-11-01",
+      "año": 2023,
+      "mes": 11,
+      "narrativa_crisis_idx": 7.0,
+      "delincuencia": 20,
+      "crisis Chile": 13,
+      "ipec": 29.0320091630857
+    },
+    {
+      "fecha": "2023-12-01",
+      "año": 2023,
+      "mes": 12,
+      "narrativa_crisis_idx": 4.1,
+      "delincuencia": 13,
+      "crisis Chile": 6,
+      "ipec": 30.349120257583
+    },
+    {
+      "fecha": "2024-01-01",
+      "año": 2024,
+      "mes": 1,
+      "narrativa_crisis_idx": 3.8,
+      "delincuencia": 14,
+      "crisis Chile": 5,
+      "ipec": 31.3089596514568
+    },
+    {
+      "fecha": "2024-02-01",
+      "año": 2024,
+      "mes": 2,
+      "narrativa_crisis_idx": 3.4,
+      "delincuencia": 12,
+      "crisis Chile": 5,
+      "ipec": 31.9437724767015
+    },
+    {
+      "fecha": "2024-03-01",
+      "año": 2024,
+      "mes": 3,
+      "narrativa_crisis_idx": 4.8,
+      "delincuencia": 15,
+      "crisis Chile": 9,
+      "ipec": 31.4072051565644
+    },
+    {
+      "fecha": "2024-04-01",
+      "año": 2024,
+      "mes": 4,
+      "narrativa_crisis_idx": 8.4,
+      "delincuencia": 23,
+      "crisis Chile": 15,
+      "ipec": 30.3939054719415
+    },
+    {
+      "fecha": "2024-05-01",
+      "año": 2024,
+      "mes": 5,
+      "narrativa_crisis_idx": 6.6,
+      "delincuencia": 19,
+      "crisis Chile": 13,
+      "ipec": 28.1468374882943
+    },
+    {
+      "fecha": "2024-06-01",
+      "año": 2024,
+      "mes": 6,
+      "narrativa_crisis_idx": 5.4,
+      "delincuencia": 14,
+      "crisis Chile": 11,
+      "ipec": 32.3894342104462
+    },
+    {
+      "fecha": "2024-07-01",
+      "año": 2024,
+      "mes": 7,
+      "narrativa_crisis_idx": 5.2,
+      "delincuencia": 15,
+      "crisis Chile": 9,
+      "ipec": 27.9983178698119
+    },
+    {
+      "fecha": "2024-08-01",
+      "año": 2024,
+      "mes": 8,
+      "narrativa_crisis_idx": 4.8,
+      "delincuencia": 12,
+      "crisis Chile": 10,
+      "ipec": 33.2194937963985
+    },
+    {
+      "fecha": "2024-09-01",
+      "año": 2024,
+      "mes": 9,
+      "narrativa_crisis_idx": 5.2,
+      "delincuencia": 13,
+      "crisis Chile": 10,
+      "ipec": 31.87612308825
+    },
+    {
+      "fecha": "2024-10-01",
+      "año": 2024,
+      "mes": 10,
+      "narrativa_crisis_idx": 5.8,
+      "delincuencia": 16,
+      "crisis Chile": 11,
+      "ipec": 30.838705288399
+    },
+    {
+      "fecha": "2024-11-01",
+      "año": 2024,
+      "mes": 11,
+      "narrativa_crisis_idx": 5.0,
+      "delincuencia": 12,
+      "crisis Chile": 11,
+      "ipec": 32.2669645877089
+    },
+    {
+      "fecha": "2024-12-01",
+      "año": 2024,
+      "mes": 12,
+      "narrativa_crisis_idx": 3.2,
+      "delincuencia": 9,
+      "crisis Chile": 7,
+      "ipec": 33.3101639272476
+    },
+    {
+      "fecha": "2025-01-01",
+      "año": 2025,
+      "mes": 1,
+      "narrativa_crisis_idx": 2.6,
+      "delincuencia": 7,
+      "crisis Chile": 5,
+      "ipec": 35.2648914539487
+    },
+    {
+      "fecha": "2025-02-01",
+      "año": 2025,
+      "mes": 2,
+      "narrativa_crisis_idx": 2.6,
+      "delincuencia": 8,
+      "crisis Chile": 4,
+      "ipec": 36.3066328763179
+    },
+    {
+      "fecha": "2025-03-01",
+      "año": 2025,
+      "mes": 3,
+      "narrativa_crisis_idx": 5.0,
+      "delincuencia": 14,
+      "crisis Chile": 10,
+      "ipec": 34.7347447483856
+    },
+    {
+      "fecha": "2025-04-01",
+      "año": 2025,
+      "mes": 4,
+      "narrativa_crisis_idx": 5.8,
+      "delincuencia": 15,
+      "crisis Chile": 13,
+      "ipec": 34.4373602940074
+    },
+    {
+      "fecha": "2025-05-01",
+      "año": 2025,
+      "mes": 5,
+      "narrativa_crisis_idx": 5.4,
+      "delincuencia": 13,
+      "crisis Chile": 12,
+      "ipec": 33.4617391690831
+    },
+    {
+      "fecha": "2025-06-01",
+      "año": 2025,
+      "mes": 6,
+      "narrativa_crisis_idx": 5.4,
+      "delincuencia": 13,
+      "crisis Chile": 11,
+      "ipec": 35.0160832667821
+    },
+    {
+      "fecha": "2025-07-01",
+      "año": 2025,
+      "mes": 7,
+      "narrativa_crisis_idx": 6.0,
+      "delincuencia": 17,
+      "crisis Chile": 11,
+      "ipec": 35.2109160784745
+    },
+    {
+      "fecha": "2025-08-01",
+      "año": 2025,
+      "mes": 8,
+      "narrativa_crisis_idx": 5.4,
+      "delincuencia": 15,
+      "crisis Chile": 10,
+      "ipec": 36.7976241808404
+    },
+    {
+      "fecha": "2025-09-01",
+      "año": 2025,
+      "mes": 9,
+      "narrativa_crisis_idx": 4.6,
+      "delincuencia": 11,
+      "crisis Chile": 10,
+      "ipec": 41.2744239900442
+    },
+    {
+      "fecha": "2025-10-01",
+      "año": 2025,
+      "mes": 10,
+      "narrativa_crisis_idx": 5.2,
+      "delincuencia": 13,
+      "crisis Chile": 11,
+      "ipec": 37.9034832244751
+    },
+    {
+      "fecha": "2025-11-01",
+      "año": 2025,
+      "mes": 11,
+      "narrativa_crisis_idx": 8.2,
+      "delincuencia": 23,
+      "crisis Chile": 16,
+      "ipec": 40.5990969137723
+    }
+  ],
+  "imce_sol_2025": {
+    "trimestre": "MJJ2025",
+    "td": 8.7,
+    "tdi": 12.4,
+    "td_mujeres": 9.7,
+    "td_hombres": 7.9,
+    "informalidad_pct": 26.0,
+    "insercion_endeble_pct": 42.5,
+    "empleo_protegido_pct": 31.5,
+    "su4": 21.8,
+    "ocupados": 9330309,
+    "empleos_faltantes_prepandemia": 292225,
+    "empleo_informal_recuperado_pct": 72.7
+  }
+}

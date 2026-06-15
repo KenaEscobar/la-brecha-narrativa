@@ -1,0 +1,601 @@
+=================================================================
+LA BRECHA NARRATIVA — Scraping de titulares (Wayback Machine)
+=================================================================
+Secciones     : 3 (emol/portada, emol/economia, la_tercera/portada)
+Período       : 2014–2025 (432 snapshots totales)
+Ya procesados : 0  |  Pendientes: 432
+Tiempo estimado: ~36–54 min
+
+
+─────────────────────────────────────────────────────────────────
+  EMOL / portada
+─────────────────────────────────────────────────────────────────
+  [2014-01] CDX... ts=2014011007... 34 titulares  ← checkpoint (34 total)
+  [2014-02] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.6s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 4.8s...
+ ts=2014021023... 37 titulares  ← checkpoint (71 total)
+  [2014-03] CDX... ts=2014031005... 30 titulares  ← checkpoint (101 total)
+  [2014-04] CDX... ts=2014041001... 35 titulares  ← checkpoint (136 total)
+  [2014-05] CDX... ts=2014051017... 38 titulares  ← checkpoint (174 total)
+  [2014-06] CDX... ts=2014061013... 35 titulares  ← checkpoint (209 total)
+  [2014-07] CDX... ts=2014071203... 31 titulares  ← checkpoint (240 total)
+  [2014-08] CDX... ts=2014081017... 31 titulares  ← checkpoint (271 total)
+  [2014-09] CDX... ts=2014091003... 27 titulares  ← checkpoint (298 total)
+  [2014-10] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.3s...
+ ts=2014101015... 29 titulares  ← checkpoint (327 total)
+  [2014-11] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.7s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 4.2s...
+    ↻ Intento 3/3 falló (ReadTimeout). Reintentando en 8.3s...
+ sin snapshot
+  [2014-12] CDX... ts=2014121001... 27 titulares  ← checkpoint (354 total)
+  [2015-01] CDX... ts=2015011017... 27 titulares  ← checkpoint (381 total)
+  [2015-02] CDX... ts=2015021202... 26 titulares  ← checkpoint (407 total)
+  [2015-03] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.7s...
+ ts=2015031003... 26 titulares  ← checkpoint (433 total)
+  [2015-04] CDX... ts=2015041021... 26 titulares  ← checkpoint (459 total)
+  [2015-05] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.3s...
+ ts=2015051009... 22 titulares  ← checkpoint (481 total)
+  [2015-06] CDX... ts=2015061015... 0 titulares
+  [2015-07] CDX... ts=2015071704... 0 titulares
+  [2015-08] CDX... ts=2015081000... 0 titulares
+  [2015-09] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.9s...
+ ts=2015091012... 0 titulares
+  [2015-10] CDX... ts=2015101212... 0 titulares
+  [2015-11] CDX... ts=2015111012... 0 titulares
+  [2015-12] CDX... ts=2015121014... 0 titulares
+  [2016-01] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.8s...
+ ts=2016011007... 0 titulares
+  [2016-02] CDX... ts=2016021016... 0 titulares
+  [2016-03] CDX... ts=2016031005... 0 titulares
+  [2016-04] CDX... ts=2016041101... 0 titulares
+  [2016-05] CDX... ts=2016051006... 0 titulares
+  [2016-06] CDX... ts=2016061009... 0 titulares
+  [2016-07] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.1s...
+ ts=2016071003... 0 titulares
+  [2016-08] CDX... sin snapshot
+  [2016-09] CDX... sin snapshot
+  [2016-10] CDX... ts=2016101014... 0 titulares
+  [2016-11] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.5s...
+ ts=2016111000... 0 titulares
+  [2016-12] CDX... ts=2016121000... 0 titulares
+  [2017-01] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.4s...
+ ts=2017011000... 0 titulares
+  [2017-02] CDX... ts=2017021000... 0 titulares
+  [2017-03] CDX... ts=2017031019... 0 titulares
+  [2017-04] CDX... ts=2017041000... 0 titulares
+  [2017-05] CDX... ts=2017051000... 0 titulares
+  [2017-06] CDX... ts=2017061007... 0 titulares
+  [2017-07] CDX... ts=2017071001... 0 titulares
+  [2017-08] CDX... ts=2017081000... 0 titulares
+  [2017-09] CDX... ts=2017091000... 0 titulares
+  [2017-10] CDX... ts=2017101000... 0 titulares
+  [2017-11] CDX... ts=2017111000... 0 titulares
+  [2017-12] CDX... ts=2017121000... 0 titulares
+  [2018-01] CDX... ts=2018011000... 0 titulares
+  [2018-02] CDX... ts=2018021001... 0 titulares
+  [2018-03] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.9s...
+ ts=2018031012... 0 titulares
+  [2018-04] CDX... ts=2018041005... 0 titulares
+  [2018-05] CDX... ts=2018051001... 0 titulares
+  [2018-06] CDX... ts=2018061002... 0 titulares
+  [2018-07] CDX... ts=2018071022... 0 titulares
+  [2018-08] CDX... ts=2018081014... 0 titulares
+  [2018-09] CDX... ts=2018091016... 0 titulares
+  [2018-10] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.9s...
+ ts=2018101010... 0 titulares
+  [2018-11] CDX... ts=2018111021... 0 titulares
+  [2018-12] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.3s...
+ ts=2018121016... 0 titulares
+  [2019-01] CDX... ts=2019011008... 0 titulares
+  [2019-02] CDX... ts=2019021001... 0 titulares
+  [2019-03] CDX... ts=2019031021... 0 titulares
+  [2019-04] CDX... ts=2019041007... 0 titulares
+  [2019-05] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.5s...
+ ts=2019051007... 0 titulares
+  [2019-06] CDX... ts=2019061000... 0 titulares
+  [2019-07] CDX... ts=2019071011... 0 titulares
+  [2019-08] CDX... ts=2019081216... 0 titulares
+  [2019-09] CDX... sin snapshot
+  [2019-10] CDX... ts=2019101117... 0 titulares
+  [2019-11] CDX... ts=2019111115... 0 titulares
+  [2019-12] CDX... ts=2019121118... 0 titulares
+  [2020-01] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.8s...
+ ts=2020011114... 0 titulares
+  [2020-02] CDX... ts=2020021319... 0 titulares
+  [2020-03] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.8s...
+ ts=2020031020... 0 titulares
+  [2020-04] CDX... ts=2020041001... 0 titulares
+  [2020-05] CDX... ts=2020051103... 0 titulares
+  [2020-06] CDX... ts=2020061111... 0 titulares
+  [2020-07] CDX... ts=2020071106... 0 titulares
+  [2020-08] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.0s...
+ ts=2020081114... 0 titulares
+  [2020-09] CDX... ts=2020091004... 0 titulares
+  [2020-10] CDX... ts=2020101014... 0 titulares
+  [2020-11] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.0s...
+ ts=2020111207... 0 titulares
+  [2020-12] CDX... sin snapshot
+  [2021-01] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.1s...
+ ts=2021011019... 0 titulares
+  [2021-02] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.6s...
+ ts=2021021008... 0 titulares
+  [2021-03] CDX... ts=2021031010... 0 titulares
+  [2021-04] CDX... ts=2021041016... 0 titulares
+  [2021-05] CDX... ts=2021051101... 0 titulares
+  [2021-06] CDX... ts=2021061418... 0 titulares
+  [2021-07] CDX... ts=2021071505... 0 titulares
+  [2021-08] CDX... ts=2021081014... 0 titulares
+  [2021-09] CDX... ts=2021091110... 0 titulares
+  [2021-10] CDX... ts=2021101105... 0 titulares
+  [2021-11] CDX... ts=2021111000... 0 titulares
+  [2021-12] CDX... ts=2021121000... 0 titulares
+  [2022-01] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.7s...
+ ts=2022011000... 0 titulares
+  [2022-02] CDX... ts=2022021000... 0 titulares
+  [2022-03] CDX... ts=2022031000... 0 titulares
+  [2022-04] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.1s...
+ ts=2022041000... 0 titulares
+  [2022-05] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.8s...
+ ts=2022051023... 0 titulares
+  [2022-06] CDX... ts=2022061003... 0 titulares
+  [2022-07] CDX... ts=2022071000... 0 titulares
+  [2022-08] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.2s...
+ ts=2022081012... 0 titulares
+  [2022-09] CDX... ts=2022091000... 0 titulares
+  [2022-10] CDX... ts=2022101000... 0 titulares
+  [2022-11] CDX... ts=2022111000... 0 titulares
+  [2022-12] CDX... ts=2022121000... 0 titulares
+  [2023-01] CDX... ts=2023011000... 0 titulares
+  [2023-02] CDX... ts=2023021001... 0 titulares
+  [2023-03] CDX... ts=2023031016... 0 titulares
+  [2023-04] CDX... ts=2023041003... 0 titulares
+  [2023-05] CDX... ts=2023051000... 0 titulares
+  [2023-06] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.6s...
+ ts=2023061000... 0 titulares
+  [2023-07] CDX... ts=2023071107... 0 titulares
+  [2023-08] CDX... ts=2023081000... 0 titulares
+  [2023-09] CDX... ts=2023091020... 0 titulares
+  [2023-10] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.0s...
+ ts=2023101105... 0 titulares
+  [2023-11] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.9s...
+ ts=2023111001... 0 titulares
+  [2023-12] CDX... ts=2023121000... 0 titulares
+  [2024-01] CDX... ts=2024011000... 0 titulares
+  [2024-02] CDX... ts=2024021000... 0 titulares
+  [2024-03] CDX... ts=2024031000... 0 titulares
+  [2024-04] CDX... ts=2024041000... 0 titulares
+  [2024-05] CDX... ts=2024051000... 0 titulares
+  [2024-06] CDX... ts=2024061000... 0 titulares
+  [2024-07] CDX... ts=2024071000... 0 titulares
+  [2024-08] CDX... ts=2024081000... 0 titulares
+  [2024-09] CDX... ts=2024091000... 0 titulares
+  [2024-10] CDX... ts=2024101000... 0 titulares
+  [2024-11] CDX... ts=2024111000... 0 titulares
+  [2024-12] CDX... ts=2024121001... 0 titulares
+  [2025-01] CDX... ts=2025011102... 0 titulares
+  [2025-02] CDX... ts=2025021016... 0 titulares
+  [2025-03] CDX... ts=2025031000... 0 titulares
+  [2025-04] CDX... ts=2025041000... 0 titulares
+  [2025-05] CDX... ts=2025051000... 0 titulares
+  [2025-06] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.0s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 4.2s...
+ ts=2025061000... 0 titulares
+  [2025-07] CDX... ts=2025071001... 0 titulares
+  [2025-08] CDX... ts=2025081000... 0 titulares
+  [2025-09] CDX... ts=2025091000... 0 titulares
+  [2025-10] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.9s...
+ ts=2025101000... 0 titulares
+  [2025-11] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.9s...
+ ts=2025111000... 0 titulares
+  [2025-12] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.5s...
+ ts=2025121001... 0 titulares
+
+─────────────────────────────────────────────────────────────────
+  EMOL / economia
+─────────────────────────────────────────────────────────────────
+  [2014-01] CDX... ts=2014012206...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.8s...
+ 12 titulares
+  [2014-02] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.8s...
+ ts=2014021009... 12 titulares  ← checkpoint (505 total)
+  [2014-03] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.1s...
+ ts=2014031411... 12 titulares
+  [2014-04] CDX... ts=2014041120... 12 titulares  ← checkpoint (529 total)
+  [2014-05] CDX...    ↻ Intento 1/3 falló (ConnectionError). Reintentando en 3.3s...
+ ts=2014051017... 12 titulares
+  [2014-06] CDX... ts=2014061400... 12 titulares  ← checkpoint (553 total)
+  [2014-07] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.6s...
+ ts=2014071203... 12 titulares
+  [2014-08] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.8s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 4.0s...
+    ↻ Intento 3/3 falló (ReadTimeout). Reintentando en 9.1s...
+ sin snapshot
+  [2014-09] CDX...    ↻ Intento 1/3 falló (ConnectionError). Reintentando en 2.5s...
+    ↻ Intento 2/3 falló (ConnectionError). Reintentando en 4.0s...
+    ↻ Intento 3/3 falló (ReadTimeout). Reintentando en 9.0s...
+ sin snapshot
+  [2014-10] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.6s...
+ ts=2014101105... 12 titulares  ← checkpoint (577 total)
+  [2014-11] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.8s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 5.4s...
+ ts=2014111123... 12 titulares
+  [2014-12] CDX... ts=2014121002... 12 titulares  ← checkpoint (601 total)
+  [2015-01] CDX... ts=2015011016... 12 titulares
+  [2015-02] CDX... ts=2015021516... 11 titulares  ← checkpoint (624 total)
+  [2015-03] CDX... ts=2015031000... 11 titulares
+  [2015-04] CDX... ts=2015041402... 11 titulares  ← checkpoint (646 total)
+  [2015-05] CDX... ts=2015051015... 10 titulares
+  [2015-06] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.6s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 5.3s...
+ ts=2015061619... 8 titulares  ← checkpoint (664 total)
+  [2015-07] CDX... sin snapshot
+  [2015-08] CDX...    ↻ Intento 1/3 falló (ConnectionError). Reintentando en 2.6s...
+ ts=2015081020...    ↻ Intento 1/3 falló (ConnectionError). Reintentando en 3.8s...
+    ↻ Intento 2/3 falló (ConnectionError). Reintentando en 4.4s...
+ 8 titulares
+  [2015-09] CDX... sin snapshot
+  [2015-10] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.9s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 5.0s...
+    ↻ Intento 3/3 falló (ReadTimeout). Reintentando en 9.6s...
+ sin snapshot
+  [2015-11] CDX...    ↻ Intento 1/3 falló (ConnectionError). Reintentando en 2.1s...
+    ↻ Intento 2/3 falló (ConnectionError). Reintentando en 5.1s...
+    ↻ Intento 3/3 falló (ReadTimeout). Reintentando en 9.1s...
+ sin snapshot
+  [2015-12] CDX... ts=2015121002... 8 titulares  ← checkpoint (680 total)
+  [2016-01] CDX... ts=2016011308... 8 titulares
+  [2016-02] CDX... sin snapshot
+  [2016-03] CDX... ts=2016031113... 7 titulares  ← checkpoint (695 total)
+  [2016-04] CDX... ts=2016041218... 8 titulares
+  [2016-05] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.6s...
+ ts=2016051018... 8 titulares  ← checkpoint (711 total)
+  [2016-06] CDX... ts=2016061021... 7 titulares
+  [2016-07] CDX... ts=2016071214... 7 titulares
+  [2016-08] CDX... ts=2016081017... 7 titulares  ← checkpoint (732 total)
+  [2016-09] CDX... ts=2016091608... 8 titulares
+  [2016-10] CDX... ts=2016101019... 7 titulares  ← checkpoint (747 total)
+  [2016-11] CDX... ts=2016111213... 6 titulares
+  [2016-12] CDX... ts=2016121000... 8 titulares
+  [2017-01] CDX... ts=2017011204... 8 titulares  ← checkpoint (769 total)
+  [2017-02] CDX... ts=2017021608... 8 titulares
+  [2017-03] CDX... ts=2017031208... 7 titulares  ← checkpoint (784 total)
+  [2017-04] CDX... ts=2017041611... 8 titulares
+  [2017-05] CDX... ts=2017051121... 8 titulares  ← checkpoint (800 total)
+  [2017-06] CDX... ts=2017061316... 6 titulares
+  [2017-07] CDX... ts=2017071118... 7 titulares
+  [2017-08] CDX... ts=2017081523... 7 titulares  ← checkpoint (820 total)
+  [2017-09] CDX... ts=2017091005... 7 titulares
+  [2017-10] CDX... ts=2017101023... 7 titulares
+  [2017-11] CDX... ts=2017111418... 7 titulares  ← checkpoint (841 total)
+  [2017-12] CDX... ts=2017121020... 7 titulares
+  [2018-01] CDX... ts=2018011021... 7 titulares
+  [2018-02] CDX... ts=2018021503... 8 titulares  ← checkpoint (863 total)
+  [2018-03] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.2s...
+ ts=2018031216... 7 titulares
+  [2018-04] CDX... ts=2018041121... 7 titulares
+  [2018-05] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.2s...
+ ts=2018051201... 7 titulares  ← checkpoint (884 total)
+  [2018-06] CDX... ts=2018061311... 8 titulares
+  [2018-07] CDX... ts=2018071502... 7 titulares  ← checkpoint (899 total)
+  [2018-08] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.7s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 5.6s...
+ ts=2018081213... 5 titulares
+  [2018-09] CDX... ts=2018091304... 8 titulares
+  [2018-10] CDX... ts=2018101804... 7 titulares  ← checkpoint (919 total)
+  [2018-11] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.7s...
+ sin snapshot
+  [2018-12] CDX... sin snapshot
+  [2019-01] CDX... sin snapshot
+  [2019-02] CDX... ts=2019022304... 9 titulares
+  [2019-03] CDX... ts=2019031921... 8 titulares  ← checkpoint (936 total)
+  [2019-04] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.7s...
+ sin snapshot
+  [2019-05] CDX... sin snapshot
+  [2019-06] CDX... ts=2019061000... 5 titulares
+  [2019-07] CDX... sin snapshot
+  [2019-08] CDX... ts=2019081216... 7 titulares
+  [2019-09] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.0s...
+ sin snapshot
+  [2019-10] CDX... ts=2019101607... 8 titulares  ← checkpoint (956 total)
+  [2019-11] CDX... ts=2019111121... 9 titulares
+  [2019-12] CDX... sin snapshot
+  [2020-01] CDX... sin snapshot
+  [2020-02] CDX... sin snapshot
+  [2020-03] CDX... sin snapshot
+  [2020-04] CDX... sin snapshot
+  [2020-05] CDX... ts=2020051604... 9 titulares  ← checkpoint (974 total)
+  [2020-06] CDX... sin snapshot
+  [2020-07] CDX... ts=2020072219... 7 titulares
+  [2020-08] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.3s...
+ sin snapshot
+  [2020-09] CDX... ts=2020091020... 9 titulares  ← checkpoint (990 total)
+  [2020-10] CDX... sin snapshot
+  [2020-11] CDX... sin snapshot
+  [2020-12] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.5s...
+ sin snapshot
+  [2021-01] CDX... ts=2021011918... 8 titulares
+  [2021-02] CDX... sin snapshot
+  [2021-03] CDX... sin snapshot
+  [2021-04] CDX... sin snapshot
+  [2021-05] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.1s...
+ ts=2021051713... 8 titulares  ← checkpoint (1006 total)
+  [2021-06] CDX... sin snapshot
+  [2021-07] CDX... sin snapshot
+  [2021-08] CDX... sin snapshot
+  [2021-09] CDX... ts=2021091510... 6 titulares
+  [2021-10] CDX... ts=2021101918... 8 titulares
+  [2021-11] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.8s...
+ sin snapshot
+  [2021-12] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.5s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 5.0s...
+    ↻ Intento 3/3 falló (ReadTimeout). Reintentando en 8.0s...
+ sin snapshot
+  [2022-01] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.3s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 5.4s...
+    ↻ Intento 3/3 falló (ReadTimeout). Reintentando en 9.2s...
+ sin snapshot
+  [2022-02] CDX... sin snapshot
+  [2022-03] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.6s...
+ sin snapshot
+  [2022-04] CDX... ts=2022042100... 8 titulares  ← checkpoint (1028 total)
+  [2022-05] CDX... sin snapshot
+  [2022-06] CDX... ts=2022061615... 6 titulares
+  [2022-07] CDX... sin snapshot
+  [2022-08] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.5s...
+ sin snapshot
+  [2022-09] CDX... sin snapshot
+  [2022-10] CDX... ts=2022101114... 8 titulares
+  [2022-11] CDX... sin snapshot
+  [2022-12] CDX... ts=2022122505... 8 titulares  ← checkpoint (1050 total)
+  [2023-01] CDX... ts=2023011715... 9 titulares
+  [2023-02] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.4s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 5.1s...
+    ↻ Intento 3/3 falló (ReadTimeout). Reintentando en 9.2s...
+ sin snapshot
+  [2023-03] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.3s...
+ sin snapshot
+  [2023-04] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.5s...
+ ts=2023041404... 9 titulares  ← checkpoint (1068 total)
+  [2023-05] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.3s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 4.3s...
+ ts=2023052017... 7 titulares
+  [2023-06] CDX... ts=2023062216... 7 titulares
+  [2023-07] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.3s...
+ sin snapshot
+  [2023-08] CDX... ts=2023081107... 9 titulares  ← checkpoint (1091 total)
+  [2023-09] CDX... ts=2023091020... 8 titulares
+  [2023-10] CDX... ts=2023101018... 9 titulares  ← checkpoint (1108 total)
+  [2023-11] CDX... sin snapshot
+  [2023-12] CDX... sin snapshot
+  [2024-01] CDX... sin snapshot
+  [2024-02] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.6s...
+ sin snapshot
+  [2024-03] CDX... ts=2024031006... 10 titulares
+  [2024-04] CDX... ts=2024042219... 10 titulares  ← checkpoint (1128 total)
+  [2024-05] CDX... ts=2024051816... 10 titulares
+  [2024-06] CDX... sin snapshot
+  [2024-07] CDX... sin snapshot
+  [2024-08] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.5s...
+ ts=2024082206... 10 titulares  ← checkpoint (1148 total)
+  [2024-09] CDX... ts=2024092400... 10 titulares
+  [2024-10] CDX... sin snapshot
+  [2024-11] CDX... ts=2024111710... 10 titulares  ← checkpoint (1168 total)
+  [2024-12] CDX... ts=2024121319... 10 titulares
+  [2025-01] CDX... sin snapshot
+  [2025-02] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.9s...
+ ts=2025021313... 9 titulares  ← checkpoint (1187 total)
+  [2025-03] CDX... ts=2025031903... 10 titulares
+  [2025-04] CDX... ts=2025041116... 9 titulares  ← checkpoint (1206 total)
+  [2025-05] CDX... sin snapshot
+  [2025-06] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.1s...
+ sin snapshot
+  [2025-07] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.7s...
+ sin snapshot
+  [2025-08] CDX... ts=2025082523... 10 titulares
+  [2025-09] CDX... ts=2025092415... 10 titulares  ← checkpoint (1226 total)
+  [2025-10] CDX... sin snapshot
+  [2025-11] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.9s...
+ sin snapshot
+  [2025-12] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.5s...
+ ts=2025121212... 9 titulares
+
+─────────────────────────────────────────────────────────────────
+  LA_TERCERA / portada
+─────────────────────────────────────────────────────────────────
+  [2014-01] CDX... ts=2014011000... 24 titulares  ← checkpoint (1259 total)
+  [2014-02] CDX... ts=2014021002... 28 titulares  ← checkpoint (1287 total)
+  [2014-03] CDX... ts=2014031002... 26 titulares  ← checkpoint (1313 total)
+  [2014-04] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.5s...
+ sin snapshot
+  [2014-05] CDX... sin snapshot
+  [2014-06] CDX... sin snapshot
+  [2014-07] CDX... sin snapshot
+  [2014-08] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.4s...
+ ts=2014081002... 28 titulares  ← checkpoint (1341 total)
+  [2014-09] CDX... ts=2014091000... 29 titulares  ← checkpoint (1370 total)
+  [2014-10] CDX... sin snapshot
+  [2014-11] CDX... sin snapshot
+  [2014-12] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.8s...
+ sin snapshot
+  [2015-01] CDX... sin snapshot
+  [2015-02] CDX... ts=2015021202... 29 titulares  ← checkpoint (1399 total)
+  [2015-03] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.2s...
+ ts=2015031000... 26 titulares  ← checkpoint (1425 total)
+  [2015-04] CDX... ts=2015041004... 32 titulares  ← checkpoint (1457 total)
+  [2015-05] CDX... ts=2015051415... 40 titulares  ← checkpoint (1497 total)
+  [2015-06] CDX... ts=2015061001... 40 titulares  ← checkpoint (1537 total)
+  [2015-07] CDX... ts=2015071319... 40 titulares  ← checkpoint (1577 total)
+  [2015-08] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.7s...
+ ts=2015081322... 40 titulares  ← checkpoint (1617 total)
+  [2015-09] CDX... ts=2015091718... 40 titulares  ← checkpoint (1657 total)
+  [2015-10] CDX... ts=2015101517... 40 titulares  ← checkpoint (1697 total)
+  [2015-11] CDX... ts=2015111003... 40 titulares  ← checkpoint (1737 total)
+  [2015-12] CDX... ts=2015121011... 40 titulares  ← checkpoint (1777 total)
+  [2016-01] CDX... ts=2016011000... 40 titulares  ← checkpoint (1817 total)
+  [2016-02] CDX... ts=2016021000... 40 titulares  ← checkpoint (1857 total)
+  [2016-03] CDX... ts=2016031008... 40 titulares  ← checkpoint (1897 total)
+  [2016-04] CDX... ts=2016041001... 40 titulares  ← checkpoint (1937 total)
+  [2016-05] CDX... ts=2016051100... 40 titulares  ← checkpoint (1977 total)
+  [2016-06] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.4s...
+ ts=2016061009... 40 titulares  ← checkpoint (2017 total)
+  [2016-07] CDX... ts=2016071012... 40 titulares  ← checkpoint (2057 total)
+  [2016-08] CDX... ts=2016081119... 40 titulares  ← checkpoint (2097 total)
+  [2016-09] CDX... ts=2016091000... 40 titulares  ← checkpoint (2137 total)
+  [2016-10] CDX... ts=2016101000... 40 titulares  ← checkpoint (2177 total)
+  [2016-11] CDX... ts=2016111000... 40 titulares  ← checkpoint (2217 total)
+  [2016-12] CDX... ts=2016121001... 40 titulares  ← checkpoint (2257 total)
+  [2017-01] CDX... ts=2017011002... 40 titulares  ← checkpoint (2297 total)
+  [2017-02] CDX... ts=2017021006... 40 titulares  ← checkpoint (2337 total)
+  [2017-03] CDX... ts=2017031003... 40 titulares  ← checkpoint (2377 total)
+  [2017-04] CDX... ts=2017041003... 40 titulares  ← checkpoint (2417 total)
+  [2017-05] CDX... ts=2017051000... 40 titulares  ← checkpoint (2457 total)
+  [2017-06] CDX... ts=2017061000... 40 titulares  ← checkpoint (2497 total)
+  [2017-07] CDX... ts=2017071023... 40 titulares  ← checkpoint (2537 total)
+  [2017-08] CDX... ts=2017081011... 40 titulares  ← checkpoint (2577 total)
+  [2017-09] CDX... ts=2017091006... 40 titulares  ← checkpoint (2617 total)
+  [2017-10] CDX... ts=2017101002... 40 titulares  ← checkpoint (2657 total)
+  [2017-11] CDX... ts=2017111002... 40 titulares  ← checkpoint (2697 total)
+  [2017-12] CDX... ts=2017121001... 40 titulares  ← checkpoint (2737 total)
+  [2018-01] CDX... ts=2018011001... 40 titulares  ← checkpoint (2777 total)
+  [2018-02] CDX... ts=2018021001... 40 titulares  ← checkpoint (2817 total)
+  [2018-03] CDX... ts=2018031009... 40 titulares  ← checkpoint (2857 total)
+  [2018-04] CDX... ts=2018041004... 40 titulares  ← checkpoint (2897 total)
+  [2018-05] CDX... ts=2018051001... 40 titulares  ← checkpoint (2937 total)
+  [2018-06] CDX... ts=2018061002... 40 titulares  ← checkpoint (2977 total)
+  [2018-07] CDX... ts=2018071022... 40 titulares  ← checkpoint (3017 total)
+  [2018-08] CDX... ts=2018081014... 40 titulares  ← checkpoint (3057 total)
+  [2018-09] CDX... ts=2018091007... 40 titulares  ← checkpoint (3097 total)
+  [2018-10] CDX... ts=2018101010... 40 titulares  ← checkpoint (3137 total)
+  [2018-11] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.5s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 4.7s...
+ ts=2018111007... 40 titulares  ← checkpoint (3177 total)
+  [2018-12] CDX... ts=2018121008... 40 titulares  ← checkpoint (3217 total)
+  [2019-01] CDX... ts=2019011008... 40 titulares  ← checkpoint (3257 total)
+  [2019-02] CDX... ts=2019021000... 40 titulares  ← checkpoint (3297 total)
+  [2019-03] CDX... ts=2019031013... 40 titulares  ← checkpoint (3337 total)
+  [2019-04] CDX... ts=2019041002... 40 titulares  ← checkpoint (3377 total)
+  [2019-05] CDX... ts=2019051001... 0 titulares
+  [2019-06] CDX... ts=2019061002... 0 titulares
+  [2019-07] CDX... ts=2019071006... 0 titulares
+  [2019-08] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.4s...
+ ts=2019081002... 0 titulares
+  [2019-09] CDX... ts=2019091007... 0 titulares
+  [2019-10] CDX... ts=2019101009... 0 titulares
+  [2019-11] CDX... ts=2019111003... 0 titulares
+  [2019-12] CDX... ts=2019121011... 0 titulares
+  [2020-01] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 4.0s...
+ ts=2020011008... 0 titulares
+  [2020-02] CDX... ts=2020021008... 0 titulares
+  [2020-03] CDX... ts=2020031007... 20 titulares  ← checkpoint (3397 total)
+  [2020-04] CDX... ts=2020041004... 24 titulares  ← checkpoint (3421 total)
+  [2020-05] CDX... ts=2020051002... 32 titulares  ← checkpoint (3453 total)
+  [2020-06] CDX... ts=2020061002... 30 titulares  ← checkpoint (3483 total)
+  [2020-07] CDX... ts=2020071009... 29 titulares  ← checkpoint (3512 total)
+  [2020-08] CDX... ts=2020081020... 38 titulares  ← checkpoint (3550 total)
+  [2020-09] CDX... ts=2020091002... 40 titulares  ← checkpoint (3590 total)
+  [2020-10] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.7s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 4.5s...
+ ts=2020101007... 37 titulares  ← checkpoint (3627 total)
+  [2020-11] CDX... ts=2020111009... 40 titulares  ← checkpoint (3667 total)
+  [2020-12] CDX... ts=2020121002... 36 titulares  ← checkpoint (3703 total)
+  [2021-01] CDX... ts=2021011304... 36 titulares  ← checkpoint (3739 total)
+  [2021-02] CDX... ts=2021021002... 40 titulares  ← checkpoint (3779 total)
+  [2021-03] CDX... ts=2021031002... 39 titulares  ← checkpoint (3818 total)
+  [2021-04] CDX... ts=2021041003... 40 titulares  ← checkpoint (3858 total)
+  [2021-05] CDX... ts=2021051001... 40 titulares  ← checkpoint (3898 total)
+  [2021-06] CDX... ts=2021061006... 40 titulares  ← checkpoint (3938 total)
+  [2021-07] CDX... ts=2021071001... 40 titulares  ← checkpoint (3978 total)
+  [2021-08] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.3s...
+ ts=2021081008... 40 titulares  ← checkpoint (4018 total)
+  [2021-09] CDX... ts=2021091001... 40 titulares  ← checkpoint (4058 total)
+  [2021-10] CDX... ts=2021101000... 40 titulares  ← checkpoint (4098 total)
+  [2021-11] CDX... ts=2021111000... 40 titulares  ← checkpoint (4138 total)
+  [2021-12] CDX... ts=2021121000... 40 titulares  ← checkpoint (4178 total)
+  [2022-01] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.1s...
+ ts=2022011000... 40 titulares  ← checkpoint (4218 total)
+  [2022-02] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.5s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 4.5s...
+ ts=2022021000... 40 titulares  ← checkpoint (4258 total)
+  [2022-03] CDX... ts=2022031000... 40 titulares  ← checkpoint (4298 total)
+  [2022-04] CDX... ts=2022041000... 40 titulares  ← checkpoint (4338 total)
+  [2022-05] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.2s...
+ ts=2022051012... 40 titulares  ← checkpoint (4378 total)
+  [2022-06] CDX... ts=2022061011... 40 titulares  ← checkpoint (4418 total)
+  [2022-07] CDX... ts=2022071000... 40 titulares  ← checkpoint (4458 total)
+  [2022-08] CDX... ts=2022081002... 40 titulares  ← checkpoint (4498 total)
+  [2022-09] CDX... ts=2022091003... 40 titulares  ← checkpoint (4538 total)
+  [2022-10] CDX... ts=2022101018... 40 titulares  ← checkpoint (4578 total)
+  [2022-11] CDX... ts=2022111015... 36 titulares  ← checkpoint (4614 total)
+  [2022-12] CDX... ts=2022121005... 40 titulares  ← checkpoint (4654 total)
+  [2023-01] CDX... ts=2023011001... 36 titulares  ← checkpoint (4690 total)
+  [2023-02] CDX... ts=2023021001... 0 titulares
+  [2023-03] CDX... ts=2023031000... 0 titulares
+  [2023-04] CDX... ts=2023041004... 0 titulares
+  [2023-05] CDX... ts=2023051000... 0 titulares
+  [2023-06] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.7s...
+ ts=2023061000... 0 titulares
+  [2023-07] CDX... ts=2023071013... 0 titulares
+  [2023-08] CDX... ts=2023081012... 0 titulares
+  [2023-09] CDX... ts=2023091015... 0 titulares
+  [2023-10] CDX... ts=2023101002... 0 titulares
+  [2023-11] CDX... ts=2023111003... 0 titulares
+  [2023-12] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.5s...
+ ts=2023121008... 0 titulares
+  [2024-01] CDX... ts=2024011003... 0 titulares
+  [2024-02] CDX... ts=2024021000... 0 titulares
+  [2024-03] CDX... ts=2024031201... 0 titulares
+  [2024-04] CDX... ts=2024041013... 0 titulares
+  [2024-05] CDX... ts=2024051002... 0 titulares
+  [2024-06] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.6s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 5.1s...
+    ↻ Intento 3/3 falló (ReadTimeout). Reintentando en 8.5s...
+ sin snapshot
+  [2024-07] CDX... ts=2024071002... 0 titulares
+  [2024-08] CDX... ts=2024081113... 0 titulares
+  [2024-09] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.7s...
+ ts=2024091001... 0 titulares
+  [2024-10] CDX... ts=2024101003... 0 titulares
+  [2024-11] CDX... ts=2024111006... 0 titulares
+  [2024-12] CDX... ts=2024121009... 0 titulares
+  [2025-01] CDX... ts=2025011000... 0 titulares
+  [2025-02] CDX... ts=2025021000... 0 titulares
+  [2025-03] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.6s...
+ ts=2025031022... 0 titulares
+  [2025-04] CDX... ts=2025041018... 40 titulares  ← checkpoint (4730 total)
+  [2025-05] CDX... ts=2025051005... 40 titulares  ← checkpoint (4770 total)
+  [2025-06] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.9s...
+ ts=2025061004... 40 titulares  ← checkpoint (4810 total)
+  [2025-07] CDX... ts=2025071008... 40 titulares  ← checkpoint (4850 total)
+  [2025-08] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 2.9s...
+    ↻ Intento 2/3 falló (ReadTimeout). Reintentando en 4.5s...
+ ts=2025081004...    ↻ Intento 1/3 falló (ConnectionError). Reintentando en 3.0s...
+    ↻ Intento 2/3 falló (ConnectionError). Reintentando en 5.6s...
+    ↻ Intento 3/3 falló (ReadTimeout). Reintentando en 8.2s...
+ error al descargar
+  [2025-09] CDX...    ↻ Intento 1/3 falló (ConnectionError). Reintentando en 3.7s...
+ ts=2025091001... 40 titulares  ← checkpoint (4890 total)
+  [2025-10] CDX... ts=2025101000... 40 titulares  ← checkpoint (4930 total)
+  [2025-11] CDX...    ↻ Intento 1/3 falló (ReadTimeout). Reintentando en 3.7s...
+ ts=2025111000... 40 titulares  ← checkpoint (4970 total)
+  [2025-12] CDX... ts=2025121000... 40 titulares  ← checkpoint (5010 total)
+
+=================================================================
+COMPLETADO
+=================================================================
+Total titulares : 5010
+Output          : /Users/mescobarm/Library/CloudStorage/OneDrive-EmbotelladoraAndina/Documentos/la-brecha-narrativa-chile/datos_procesados/titulares_raw.csv
+
+Distribución de tono:
+  neutro      4634  (92.5%)
+  positivo     274  (5.5%)
+  crisis       102  (2.0%)
+
+Titulares por medio/sección:
+  emol/economia       754
+  emol/portada        481
+  la_tercera/portada       3775
+
+Años con menos de 5 titulares (posibles gaps de cobertura):
+  Ninguno ✓
+
+Próximo paso:
+  Ejecutar 04_analisis_narrativa.py para correlación titulares vs IPEC

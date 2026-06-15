@@ -1,0 +1,14 @@
+LA BRECHA NARRATIVA — Resultados Análisis Narrativa vs Percepción
+=================================================================
+Período       : 2014-01 – 2025-11
+N meses       : 126
+Total titulares: 5010
+
+CORRELACIÓN CRUZADA (proxy → IPEC, lag 0–12 meses):
+  Titulares medios reales : lag=6m, r=-0.3455, p=0.0001
+  Google Trends           : lag=3m, r=-0.3323, p=0.0002
+
+TEST DE GRANGER:
+  titulares → IPEC: F=4.951, p=0.0086, lag=2m
+
+Archivos: narrativa_vs_ipec.csv, resultados_granger.json

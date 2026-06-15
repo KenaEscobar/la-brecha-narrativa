@@ -149,6 +149,112 @@ python3 04_analisis_narrativa.py
 
 ---
 
+## Stack técnico y habilidades de ingeniería de datos
+
+Este proyecto es también una demostración de un pipeline de datos completo, desde la recolección hasta el análisis estadístico, construido íntegramente con herramientas open source.
+
+### Lenguaje y entorno
+
+| Herramienta | Versión | Uso |
+|---|---|---|
+| Python | 3.13 | Pipeline completo |
+| pandas | 2.2.3 | Manipulación, agregación y merge de datasets |
+| numpy | 2.2.4 | Cálculos numéricos y normalización |
+| scipy | — | Correlación de Pearson con p-values |
+| statsmodels | 0.14.6 | Test ADF (estacionariedad) y causalidad de Granger |
+| requests | 2.32.3 | HTTP client para scraping y APIs |
+| BeautifulSoup4 | 4.15.0 | Parsing HTML de snapshots web |
+| lxml | — | Parser HTML de alto rendimiento |
+| Chart.js | 4.4.1 | Visualizaciones interactivas en el navegador |
+
+### Recolección de datos — Web Scraping con resiliencia
+
+El script `03_scraping_titulares.py` implementa un pipeline de scraping robusto sobre **Wayback Machine (archive.org)** — la única fuente viable para datos históricos 2014–2025, dado que los RSS directos de ambos medios están bloqueados o eliminados.
+
+Técnicas implementadas:
+
+- **CDX API de archive.org** — consulta programática del índice de Wayback para obtener timestamps de snapshots válidos por mes, URL y código de estado HTTP.
+- **Retry con backoff exponencial** — cada request fallido reintenta con espera de 2ⁿ + jitter aleatorio, evitando thundering herd contra el servidor.
+- **Rate limiting polite** — sleep configurable con variación aleatoria (±0,8s) entre requests para respetar los servidores y no ser bloqueada.
+- **Checkpoint/resume pattern** — el estado de procesamiento se persiste en JSON después de cada N titulares. Si el script se interrumpe (timeout de red, corte de luz), se puede reanudar exactamente donde quedó sin repetir requests.
+- **CLI con argparse** — interfaz de línea de comandos con flags `--dry-run`, `--reset` y `--desde YYYY-MM` para control granular de la ejecución.
+
+```
+432 snapshots × ~5s/request = ~36 min
+3 secciones × 144 meses × retry logic + backoff
+→ completado en ~45 min, 0 datos perdidos por interrupciones
+```
+
+### Arquitectura del pipeline
+
+El proyecto sigue una arquitectura de pipeline de datos en etapas discretas y reproducibles:
+
+```
+Fuentes públicas
+    │
+    ▼
+01_reconstruir_datasets.py     ← Ingesta y limpieza
+    │  World Bank API · CEP handoff · Banco Central · Google Trends
+    │
+    ▼
+brecha_completo.json           ← Datos maestros (IPEC, CEP, Trends, 143 meses)
+brecha_data.json               ← Dataset agregado anual
+    │
+    ├──▶ 02_visualizacion_brecha.html   ← Capa de visualización
+    │        Chart.js · plugins custom · datos embebidos (sin servidor)
+    │
+    ▼
+03_scraping_titulares.py       ← Recolección de datos primarios
+    │  Wayback CDX API · BeautifulSoup4 · checkpoint/resume
+    │
+    ▼
+titulares_raw.csv              ← 5.010 titulares clasificados
+    │
+    ▼
+04_analisis_narrativa.py       ← Análisis estadístico
+    │  CCF · ADF · Granger · merge con IPEC
+    │
+    ▼
+narrativa_vs_ipec.csv          ← Serie fusionada lista para modelado
+resultados_granger.json        ← Output estadístico reproducible
+```
+
+Cada etapa es **idempotente**: puede correrse de nuevo sin efectos secundarios. Los outputs intermedios son archivos planos (CSV/JSON) — no hay dependencias de bases de datos ni servicios externos en tiempo de análisis.
+
+### Análisis estadístico
+
+**Correlación cruzada (CCF)**  
+Implementación manual sobre series normalizadas (z-score), sin depender de la CCF de statsmodels, para tener control explícito sobre los lags y los p-values por Pearson. Se calcularon lags 0–12 para tres proxies en paralelo.
+
+**Test de Dickey-Fuller aumentado (ADF)**  
+Aplicado antes del test de Granger para verificar estacionariedad, con diferenciación automática de las series que no la cumplen. Esto evita regresiones espurias entre series integradas.
+
+**Test de causalidad de Granger**  
+Aplicado en ambas direcciones (narrativa→IPEC e IPEC→narrativa) con lags 1–6. Usar ambas direcciones es la práctica estándar para distinguir precedencia estadística de correlación bidireccional — el hallazgo de retroalimentación surgió precisamente de esta doble verificación.
+
+### Visualización — Dashboard standalone
+
+`02_visualizacion_brecha.html` es un dashboard de producción construido sin frameworks:
+
+- **Chart.js 4.4.1** con plugins custom escritos en JS vanilla para líneas verticales con etiquetas rotadas y regiones sombreadas por período de gobierno.
+- **Datos embebidos directamente en el HTML** (46 KB de JSON minificado) para que funcione abriendo el archivo con doble clic, sin necesidad de servidor local ni conexión de red.
+- **SRI hash verificado** (`sha512`) sobre el único CDN externo (Chart.js) para garantizar integridad del script.
+- **Doble eje Y**, tooltips con mes/año exacto, franjas por gobierno calculadas dinámicamente con `findIndex` sobre los datos reales.
+
+### Reproducibilidad
+
+Todos los análisis son reproducibles desde cero con:
+
+```bash
+python3 01_reconstruir_datasets.py   # reconstruir datos base
+python3 03_scraping_titulares.py     # recolectar titulares (~45 min)
+python3 04_analisis_narrativa.py     # correr análisis estadístico
+```
+
+Las únicas dependencias externas son `pip3 install requests beautifulsoup4 lxml statsmodels` y una conexión a internet para el scraping.
+
+---
+
 ## Estado actual
 
 - [x] Reconstrucción de datasets (PIB, GINI, pobreza, CEP, IPEC)
